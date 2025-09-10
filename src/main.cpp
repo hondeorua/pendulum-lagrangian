@@ -1,10 +1,10 @@
+#include "glm/geometric.hpp"
 #include "shader.hpp" //this header file already has the other #include
 #include <GLFW/glfw3.h>
 #include <cmath>
 #include <glm/glm.hpp>
 #include <glm/gtc/matrix_transform.hpp>
 #include <glm/gtc/type_ptr.hpp>
-#include <ios>
 #include <iostream>
 #include <ostream>
 
@@ -18,6 +18,8 @@ constexpr glm::vec3 gravity = glm::vec3(0, -9.81, 0);
 GLFWwindow *window;
 
 void framebuffer_size_callback(GLFWwindow *window, int width, int height);
+glm::vec3 normal_vect_wall(glm::vec3 position);
+bool hit_wall(glm::vec3 position);
 
 int main() {
 
@@ -81,11 +83,12 @@ int main() {
   glBindVertexArray(0);
 
   glm::vec3 position = glm::vec3(0, 0, 0);
-  glm::vec3 velocity = glm::vec3(0, 0, 0);
+  glm::vec3 velocity = glm::vec3(0.5, 0.7, 0);
   unsigned int transLoc = glGetUniformLocation(shader.shaderID, "aTrans");
 
   float last_time = glfwGetTime();
 
+  glfwSwapInterval(0);
   while (!glfwWindowShouldClose(window)) {
 
     glClearColor(0.0f, 0.0f, 0.0f, 1.0f);
@@ -95,9 +98,15 @@ int main() {
     float delta_t = current_time - last_time;
     last_time = current_time;
 
+    if (hit_wall(position)) {
+      velocity = glm::reflect(velocity, normal_vect_wall(position));
+    }
+
     velocity += gravity * delta_t;
 
-    position += velocity * delta_t + 0.5f * gravity * (current_time * current_time - last_time * last_time);
+    position +=
+        velocity * delta_t +
+        0.5f * gravity * (current_time * current_time - last_time * last_time);
     glm::mat4 transformation_mat = glm::mat4(1.0);
     transformation_mat = glm::translate(transformation_mat, position);
     transformation_mat = glm::scale(transformation_mat, SCALE);
@@ -119,4 +128,28 @@ int main() {
 
 void framebuffer_size_callback(GLFWwindow *window, int width, int height) {
   glViewport(0, 0, width * 2, height * 2);
+}
+
+glm::vec3 normal_vect_wall(glm::vec3 position) {
+  float x = position.x;
+  float y = position.y;
+  if (std::abs(x) > std::abs(y)) {
+    if (x > 0)
+      return glm::vec3(-1, 0, 0);
+    if (x < 0)
+      return glm::vec3(1, 0, 0);
+  }
+  if (y > 0)
+    return glm::vec3(0, -1, 0);
+  if (y < 0)
+    return glm::vec3(0, 1, 0);
+  return glm::normalize(glm::vec3(-x / std::abs(x), -y / std::abs(y), 0));
+}
+
+bool hit_wall(glm::vec3 position) {
+  float x = position.x;
+  float y = position.y;
+  if (std::abs(x) >= 0.95 || std::abs(y) >= 0.95)
+    return true;
+  return false;
 }

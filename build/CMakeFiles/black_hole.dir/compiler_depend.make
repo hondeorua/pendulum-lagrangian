@@ -925,32 +925,6 @@ CMakeFiles/black_hole.dir/src/main.cpp.o: /Users/hvu/Personal_Projects/game/test
   /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/KHR/khrplatform.h \
   /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glad/glad.h \
   /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/common.hpp \
-  /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/common.hpp \
-  /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/vector_relational.hpp \
-  /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/detail/_vectorize.hpp \
-  /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/detail/func_exponential.inl \
-  /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/detail/func_vector_relational.inl \
-  /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/detail/qualifier.hpp \
-  /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/detail/setup.hpp \
-  /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/detail/type_vec1.hpp \
-  /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/detail/type_vec2.hpp \
-  /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/detail/type_vec3.hpp \
-  /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/detail/type_vec4.hpp \
-  /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/exponential.hpp \
-  /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/vector_relational.hpp \
-  /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/detail/compute_vector_relational.hpp \
-  /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/detail/_fixes.hpp \
-  /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/detail/_vectorize.hpp \
-  /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/detail/compute_common.hpp \
-  /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/detail/func_common.inl \
-  /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/detail/func_geometric.inl \
-  /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/detail/qualifier.hpp \
-  /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/detail/setup.hpp \
-  /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/detail/type_vec1.hpp \
-  /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/detail/type_vec1.inl \
-  /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/detail/type_vec2.hpp \
-  /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/detail/type_vec3.hpp \
-  /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/detail/type_vec4.hpp \
   /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/geometric.hpp \
   /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/matrix.hpp \
   /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/detail/type_mat2x2.hpp \
@@ -1022,21 +996,12 @@ CMakeFiles/black_hole.dir/src/main.cpp.o: /Users/hvu/Personal_Projects/game/test
   /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/vec2.hpp \
   /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/vec3.hpp \
   /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/vec4.hpp \
-  /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/detail/compute_vector_relational.hpp \
-  /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/detail/setup.hpp \
-  /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/detail/_vectorize.hpp \
-  /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/detail/compute_vector_decl.hpp \
-  /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/detail/compute_vector_relational.hpp \
-  /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/detail/qualifier.hpp \
   /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/detail/setup.hpp \
   /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/detail/type_mat2x2.hpp \
   /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/detail/type_mat2x2.inl \
   /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/detail/type_vec2.hpp \
-  /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/detail/type_vec2.inl \
   /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/detail/type_vec3.hpp \
-  /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/detail/type_vec3.inl \
   /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/detail/type_vec4.hpp \
-  /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/detail/type_vec4.inl \
   /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/detail/setup.hpp \
   /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/ext/scalar_int_sized.hpp \
   /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/ext/scalar_uint_sized.hpp \
@@ -1082,9 +1047,34 @@ CMakeFiles/black_hole.dir/src/main.cpp.o: /Users/hvu/Personal_Projects/game/test
   /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/ext/vector_uint4_sized.hpp \
   /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/common.hpp \
   /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/common.hpp \
+  /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/detail/func_vector_relational.inl \
+  /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/detail/qualifier.hpp \
+  /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/detail/setup.hpp \
+  /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/vector_relational.hpp \
+  /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/detail/compute_vector_relational.hpp \
+  /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/detail/_fixes.hpp \
+  /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/detail/_vectorize.hpp \
+  /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/detail/compute_common.hpp \
+  /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/detail/compute_vector_decl.hpp \
+  /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/detail/compute_vector_relational.hpp \
+  /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/detail/func_common.inl \
+  /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/detail/func_exponential.inl \
+  /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/detail/qualifier.hpp \
+  /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/detail/setup.hpp \
+  /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/detail/type_vec1.hpp \
+  /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/detail/type_vec1.inl \
+  /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/detail/type_vec2.hpp \
+  /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/detail/type_vec2.inl \
+  /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/detail/type_vec3.hpp \
+  /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/detail/type_vec4.hpp \
+  /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/detail/type_vec4.inl \
+  /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/exponential.hpp \
   /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/simd/platform.h \
   /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/detail/_fixes.hpp \
   /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/detail/_vectorize.hpp \
+  /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/detail/compute_vector_decl.hpp \
+  /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/detail/compute_vector_relational.hpp \
+  /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/detail/func_geometric.inl \
   /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/detail/func_integer.inl \
   /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/detail/func_packing.inl \
   /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/detail/func_trigonometric.inl \
@@ -1092,6 +1082,8 @@ CMakeFiles/black_hole.dir/src/main.cpp.o: /Users/hvu/Personal_Projects/game/test
   /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/detail/setup.hpp \
   /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/detail/type_half.hpp \
   /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/detail/type_half.inl \
+  /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/detail/type_vec3.hpp \
+  /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/detail/type_vec3.inl \
   /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/exponential.hpp \
   /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/fwd.hpp \
   /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/geometric.hpp \
@@ -2108,6 +2100,8 @@ CMakeFiles/black_hole.dir/src/shader.cpp.o: /Users/hvu/Personal_Projects/game/te
 
 /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/ext/scalar_constants.hpp:
 
+/Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/detail/type_vec3.inl:
+
 /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/detail/type_half.hpp:
 
 /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/detail/func_trigonometric.inl:
@@ -2116,7 +2110,25 @@ CMakeFiles/black_hole.dir/src/shader.cpp.o: /Users/hvu/Personal_Projects/game/te
 
 /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/detail/func_integer.inl:
 
+/Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/detail/func_geometric.inl:
+
 /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/simd/platform.h:
+
+/Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/detail/type_vec2.inl:
+
+/Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/detail/type_vec1.inl:
+
+/Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/detail/func_exponential.inl:
+
+/Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/detail/func_common.inl:
+
+/Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/detail/_vectorize.hpp:
+
+/Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/detail/compute_vector_relational.hpp:
+
+/Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/vector_relational.hpp:
+
+/Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/detail/func_vector_relational.inl:
 
 /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/ext/vector_uint4_sized.hpp:
 
@@ -2154,10 +2166,6 @@ CMakeFiles/black_hole.dir/src/shader.cpp.o: /Users/hvu/Personal_Projects/game/te
 
 /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/ext/scalar_int_sized.hpp:
 
-/Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/detail/type_vec3.inl:
-
-/Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/detail/type_vec2.inl:
-
 /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/vec4.hpp:
 
 /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/vec2.hpp:
@@ -2175,6 +2183,8 @@ CMakeFiles/black_hole.dir/src/shader.cpp.o: /Users/hvu/Personal_Projects/game/te
 /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/ext/vector_int4.hpp:
 
 /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/mat2x2.hpp:
+
+/Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/detail/setup.hpp:
 
 /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/detail/func_matrix.inl:
 
@@ -2212,6 +2222,8 @@ CMakeFiles/black_hole.dir/src/shader.cpp.o: /Users/hvu/Personal_Projects/game/te
 
 /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/ext/matrix_double2x4.hpp:
 
+/Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/detail/type_vec4.hpp:
+
 /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/detail/type_mat4x4.inl:
 
 /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/detail/type_mat4x3.inl:
@@ -2235,26 +2247,6 @@ CMakeFiles/black_hole.dir/src/shader.cpp.o: /Users/hvu/Personal_Projects/game/te
 /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/detail/type_mat2x2.hpp:
 
 /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/matrix.hpp:
-
-/Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/detail/type_vec1.inl:
-
-/Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/detail/func_geometric.inl:
-
-/Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/detail/func_common.inl:
-
-/Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/detail/compute_vector_relational.hpp:
-
-/Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/detail/type_vec4.hpp:
-
-/Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/detail/setup.hpp:
-
-/Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/detail/func_vector_relational.inl:
-
-/Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/detail/func_exponential.inl:
-
-/Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/detail/_vectorize.hpp:
-
-/Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/vector_relational.hpp:
 
 /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/GLFW/glfw3.h:
 
@@ -3330,9 +3322,9 @@ CMakeFiles/black_hole.dir/src/shader.cpp.o: /Users/hvu/Personal_Projects/game/te
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__atomic/is_always_lock_free.h:
 
-/Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/detail/type_mat4x2.inl:
-
 /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/detail/type_vec3.hpp:
+
+/Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/detail/type_mat4x2.inl:
 
 /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/src/main.cpp:
 
@@ -3850,9 +3842,9 @@ CMakeFiles/black_hole.dir/src/shader.cpp.o: /Users/hvu/Personal_Projects/game/te
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_constant_evaluated.h:
 
-/Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/ext/vector_int3_sized.hpp:
-
 /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/detail/compute_common.hpp:
+
+/Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glm/ext/vector_int3_sized.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/istreambuf_iterator.h:
 
