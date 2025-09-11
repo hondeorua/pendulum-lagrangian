@@ -57,10 +57,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole
+CMAKE_SOURCE_DIR = /Users/hvu/Personal_Projects/game/test/swinging_pendulum
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/build
+CMAKE_BINARY_DIR = /Users/hvu/Personal_Projects/game/test/swinging_pendulum/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/build/CMakeFiles /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hvu/Personal_Projects/game/test/swinging_pendulum/build/CMakeFiles /Users/hvu/Personal_Projects/game/test/swinging_pendulum/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hvu/Personal_Projects/game/test/swinging_pendulum/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -141,6 +141,30 @@ black_hole: cmake_check_build_system
 black_hole/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/black_hole.dir/build.make CMakeFiles/black_hole.dir/build
 .PHONY : black_hole/fast
+
+src/ball.o: src/ball.cpp.o
+.PHONY : src/ball.o
+
+# target to build an object file
+src/ball.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/black_hole.dir/build.make CMakeFiles/black_hole.dir/src/ball.cpp.o
+.PHONY : src/ball.cpp.o
+
+src/ball.i: src/ball.cpp.i
+.PHONY : src/ball.i
+
+# target to preprocess a source file
+src/ball.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/black_hole.dir/build.make CMakeFiles/black_hole.dir/src/ball.cpp.i
+.PHONY : src/ball.cpp.i
+
+src/ball.s: src/ball.cpp.s
+.PHONY : src/ball.s
+
+# target to generate assembly for a file
+src/ball.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/black_hole.dir/build.make CMakeFiles/black_hole.dir/src/ball.cpp.s
+.PHONY : src/ball.cpp.s
 
 src/glad.o: src/glad.c.o
 .PHONY : src/glad.o
@@ -227,6 +251,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... black_hole"
 	@echo "... glad"
+	@echo "... src/ball.o"
+	@echo "... src/ball.i"
+	@echo "... src/ball.s"
 	@echo "... src/glad.o"
 	@echo "... src/glad.i"
 	@echo "... src/glad.s"

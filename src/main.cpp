@@ -1,4 +1,4 @@
-#include "glm/geometric.hpp"
+#include "ball.hpp"
 #include "shader.hpp" //this header file already has the other #include
 #include <GLFW/glfw3.h>
 #include <cmath>
@@ -8,18 +8,19 @@
 #include <iostream>
 #include <ostream>
 
-constexpr unsigned int WINDOW_WIDTH = 800;
-constexpr unsigned int WINDOW_HEIGHT = 600;
+constexpr unsigned int resolution = 50;
+constexpr unsigned int WINDOW_WIDTH = 1200;
+constexpr unsigned int WINDOW_HEIGHT = 800;
+constexpr float SCALE = 0.05f;
 
-constexpr glm::vec3 SCALE = glm::vec3(1.0f, 1.0f, 1.0f) * 0.05f;
+constexpr float aspect_h_over_w =
+    static_cast<float>(WINDOW_HEIGHT) / WINDOW_WIDTH;
 
 constexpr glm::vec3 gravity = glm::vec3(0, -9.81, 0);
 
 GLFWwindow *window;
 
 void framebuffer_size_callback(GLFWwindow *window, int width, int height);
-glm::vec3 normal_vect_wall(glm::vec3 position);
-bool hit_wall(glm::vec3 position);
 
 int main() {
 
@@ -54,19 +55,9 @@ int main() {
 
   Shader shader("../src/shaders/shader.vert", "../src/shaders/shader.frag");
 
-  unsigned int resolution = 50;
+  Ball pivot_point(resolution, aspect_h_over_w);
 
-  float vertices[resolution * 2 + 4];
-  vertices[0] = 0.0;
-  vertices[1] = 0.0;
-  for (int i = 1; i < resolution + 1; i++) {
-    float theta = 2 * M_PI * (i - 1) / resolution;
-    vertices[i * 2] = std::cos(theta) * WINDOW_HEIGHT / WINDOW_WIDTH;
-    vertices[i * 2 + 1] = std::sin(theta);
-  }
-  vertices[resolution * 2 + 2] =
-      static_cast<float>(WINDOW_HEIGHT) / WINDOW_WIDTH;
-  vertices[resolution * 2 + 3] = 0.0;
+  pivot_point.position = glm::vec3(0, 0, 0);
 
   unsigned int VAO, VBO;
   glGenVertexArrays(1, &VAO);
@@ -74,7 +65,8 @@ int main() {
 
   glBindVertexArray(VAO);
   glBindBuffer(GL_ARRAY_BUFFER, VBO);
-  glBufferData(GL_ARRAY_BUFFER, sizeof(vertices), vertices, GL_STATIC_DRAW);
+  glBufferData(GL_ARRAY_BUFFER, pivot_point.vertices.size() * sizeof(float),
+               pivot_point.vertices.data(), GL_STATIC_DRAW);
   glVertexAttribPointer(0, 2, GL_FLOAT, GL_FALSE, 2 * sizeof(float),
                         (void *)(0 * sizeof(float)));
   glEnableVertexAttribArray(0);
@@ -82,9 +74,8 @@ int main() {
   glBindBuffer(GL_ARRAY_BUFFER, 0);
   glBindVertexArray(0);
 
-  glm::vec3 position = glm::vec3(0, 0, 0);
-  glm::vec3 velocity = glm::vec3(0.5, 0.7, 0);
-  unsigned int transLoc = glGetUniformLocation(shader.shaderID, "aTrans");
+  glm::mat4 aTrans = glm::mat4(1.0f);
+  aTrans = glm::scale(aTrans, glm::vec3(1, 1, 1) * SCALE);
 
   float last_time = glfwGetTime();
 
@@ -95,25 +86,11 @@ int main() {
     glClear(GL_COLOR_BUFFER_BIT);
 
     float current_time = glfwGetTime();
-    float delta_t = current_time - last_time;
+    float dt = current_time - last_time;
     last_time = current_time;
 
-    if (hit_wall(position)) {
-      velocity = glm::reflect(velocity, normal_vect_wall(position));
-    }
-
-    velocity += gravity * delta_t;
-
-    position +=
-        velocity * delta_t +
-        0.5f * gravity * (current_time * current_time - last_time * last_time);
-    glm::mat4 transformation_mat = glm::mat4(1.0);
-    transformation_mat = glm::translate(transformation_mat, position);
-    transformation_mat = glm::scale(transformation_mat, SCALE);
-
     shader.use();
-    glUniformMatrix4fv(transLoc, 1, GL_FALSE,
-                       glm::value_ptr(transformation_mat));
+    shader.setMatrix4fv("aTrans", aTrans);
 
     glBindVertexArray(VAO);
     glDrawArrays(GL_TRIANGLE_FAN, 0, resolution + 2);
@@ -128,28 +105,4 @@ int main() {
 
 void framebuffer_size_callback(GLFWwindow *window, int width, int height) {
   glViewport(0, 0, width * 2, height * 2);
-}
-
-glm::vec3 normal_vect_wall(glm::vec3 position) {
-  float x = position.x;
-  float y = position.y;
-  if (std::abs(x) > std::abs(y)) {
-    if (x > 0)
-      return glm::vec3(-1, 0, 0);
-    if (x < 0)
-      return glm::vec3(1, 0, 0);
-  }
-  if (y > 0)
-    return glm::vec3(0, -1, 0);
-  if (y < 0)
-    return glm::vec3(0, 1, 0);
-  return glm::normalize(glm::vec3(-x / std::abs(x), -y / std::abs(y), 0));
-}
-
-bool hit_wall(glm::vec3 position) {
-  float x = position.x;
-  float y = position.y;
-  if (std::abs(x) >= 0.95 || std::abs(y) >= 0.95)
-    return true;
-  return false;
 }

@@ -1,0 +1,24 @@
+#ifndef BALL_HPP
+#define BALL_HPP
+
+#include <glm/glm.hpp>
+#include <glm/gtc/matrix_transform.hpp>
+#include <glm/gtc/type_ptr.hpp>
+#include <random>
+#include <vector>
+
+class Ball {
+
+public:
+  std::vector<float> vertices;
+
+  glm::vec3 position;
+  glm::vec3 velocity;
+  glm::vec3 color;
+
+  Ball(unsigned int resolution, float aspect_h_over_w);
+private:
+  float rando(float min, float max);
+};
+
+#endif

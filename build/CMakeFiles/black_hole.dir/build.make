@@ -53,10 +53,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole
+CMAKE_SOURCE_DIR = /Users/hvu/Personal_Projects/game/test/swinging_pendulum
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/build
+CMAKE_BINARY_DIR = /Users/hvu/Personal_Projects/game/test/swinging_pendulum/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/black_hole.dir/depend.make
@@ -73,52 +73,67 @@ CMakeFiles/black_hole.dir/codegen:
 .PHONY : CMakeFiles/black_hole.dir/codegen
 
 CMakeFiles/black_hole.dir/src/main.cpp.o: CMakeFiles/black_hole.dir/flags.make
-CMakeFiles/black_hole.dir/src/main.cpp.o: /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/src/main.cpp
+CMakeFiles/black_hole.dir/src/main.cpp.o: /Users/hvu/Personal_Projects/game/test/swinging_pendulum/src/main.cpp
 CMakeFiles/black_hole.dir/src/main.cpp.o: CMakeFiles/black_hole.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/black_hole.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/black_hole.dir/src/main.cpp.o -MF CMakeFiles/black_hole.dir/src/main.cpp.o.d -o CMakeFiles/black_hole.dir/src/main.cpp.o -c /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hvu/Personal_Projects/game/test/swinging_pendulum/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/black_hole.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/black_hole.dir/src/main.cpp.o -MF CMakeFiles/black_hole.dir/src/main.cpp.o.d -o CMakeFiles/black_hole.dir/src/main.cpp.o -c /Users/hvu/Personal_Projects/game/test/swinging_pendulum/src/main.cpp
 
 CMakeFiles/black_hole.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/black_hole.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/src/main.cpp > CMakeFiles/black_hole.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hvu/Personal_Projects/game/test/swinging_pendulum/src/main.cpp > CMakeFiles/black_hole.dir/src/main.cpp.i
 
 CMakeFiles/black_hole.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/black_hole.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/src/main.cpp -o CMakeFiles/black_hole.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hvu/Personal_Projects/game/test/swinging_pendulum/src/main.cpp -o CMakeFiles/black_hole.dir/src/main.cpp.s
 
 CMakeFiles/black_hole.dir/src/glad.c.o: CMakeFiles/black_hole.dir/flags.make
-CMakeFiles/black_hole.dir/src/glad.c.o: /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/src/glad.c
+CMakeFiles/black_hole.dir/src/glad.c.o: /Users/hvu/Personal_Projects/game/test/swinging_pendulum/src/glad.c
 CMakeFiles/black_hole.dir/src/glad.c.o: CMakeFiles/black_hole.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/black_hole.dir/src/glad.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/black_hole.dir/src/glad.c.o -MF CMakeFiles/black_hole.dir/src/glad.c.o.d -o CMakeFiles/black_hole.dir/src/glad.c.o -c /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/src/glad.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hvu/Personal_Projects/game/test/swinging_pendulum/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/black_hole.dir/src/glad.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/black_hole.dir/src/glad.c.o -MF CMakeFiles/black_hole.dir/src/glad.c.o.d -o CMakeFiles/black_hole.dir/src/glad.c.o -c /Users/hvu/Personal_Projects/game/test/swinging_pendulum/src/glad.c
 
 CMakeFiles/black_hole.dir/src/glad.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/black_hole.dir/src/glad.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/src/glad.c > CMakeFiles/black_hole.dir/src/glad.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hvu/Personal_Projects/game/test/swinging_pendulum/src/glad.c > CMakeFiles/black_hole.dir/src/glad.c.i
 
 CMakeFiles/black_hole.dir/src/glad.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/black_hole.dir/src/glad.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/src/glad.c -o CMakeFiles/black_hole.dir/src/glad.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hvu/Personal_Projects/game/test/swinging_pendulum/src/glad.c -o CMakeFiles/black_hole.dir/src/glad.c.s
 
 CMakeFiles/black_hole.dir/src/shader.cpp.o: CMakeFiles/black_hole.dir/flags.make
-CMakeFiles/black_hole.dir/src/shader.cpp.o: /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/src/shader.cpp
+CMakeFiles/black_hole.dir/src/shader.cpp.o: /Users/hvu/Personal_Projects/game/test/swinging_pendulum/src/shader.cpp
 CMakeFiles/black_hole.dir/src/shader.cpp.o: CMakeFiles/black_hole.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/black_hole.dir/src/shader.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/black_hole.dir/src/shader.cpp.o -MF CMakeFiles/black_hole.dir/src/shader.cpp.o.d -o CMakeFiles/black_hole.dir/src/shader.cpp.o -c /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/src/shader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hvu/Personal_Projects/game/test/swinging_pendulum/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/black_hole.dir/src/shader.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/black_hole.dir/src/shader.cpp.o -MF CMakeFiles/black_hole.dir/src/shader.cpp.o.d -o CMakeFiles/black_hole.dir/src/shader.cpp.o -c /Users/hvu/Personal_Projects/game/test/swinging_pendulum/src/shader.cpp
 
 CMakeFiles/black_hole.dir/src/shader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/black_hole.dir/src/shader.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/src/shader.cpp > CMakeFiles/black_hole.dir/src/shader.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hvu/Personal_Projects/game/test/swinging_pendulum/src/shader.cpp > CMakeFiles/black_hole.dir/src/shader.cpp.i
 
 CMakeFiles/black_hole.dir/src/shader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/black_hole.dir/src/shader.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/src/shader.cpp -o CMakeFiles/black_hole.dir/src/shader.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hvu/Personal_Projects/game/test/swinging_pendulum/src/shader.cpp -o CMakeFiles/black_hole.dir/src/shader.cpp.s
+
+CMakeFiles/black_hole.dir/src/ball.cpp.o: CMakeFiles/black_hole.dir/flags.make
+CMakeFiles/black_hole.dir/src/ball.cpp.o: /Users/hvu/Personal_Projects/game/test/swinging_pendulum/src/ball.cpp
+CMakeFiles/black_hole.dir/src/ball.cpp.o: CMakeFiles/black_hole.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hvu/Personal_Projects/game/test/swinging_pendulum/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/black_hole.dir/src/ball.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/black_hole.dir/src/ball.cpp.o -MF CMakeFiles/black_hole.dir/src/ball.cpp.o.d -o CMakeFiles/black_hole.dir/src/ball.cpp.o -c /Users/hvu/Personal_Projects/game/test/swinging_pendulum/src/ball.cpp
+
+CMakeFiles/black_hole.dir/src/ball.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/black_hole.dir/src/ball.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hvu/Personal_Projects/game/test/swinging_pendulum/src/ball.cpp > CMakeFiles/black_hole.dir/src/ball.cpp.i
+
+CMakeFiles/black_hole.dir/src/ball.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/black_hole.dir/src/ball.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hvu/Personal_Projects/game/test/swinging_pendulum/src/ball.cpp -o CMakeFiles/black_hole.dir/src/ball.cpp.s
 
 # Object files for target black_hole
 black_hole_OBJECTS = \
 "CMakeFiles/black_hole.dir/src/main.cpp.o" \
 "CMakeFiles/black_hole.dir/src/glad.c.o" \
-"CMakeFiles/black_hole.dir/src/shader.cpp.o"
+"CMakeFiles/black_hole.dir/src/shader.cpp.o" \
+"CMakeFiles/black_hole.dir/src/ball.cpp.o"
 
 # External object files for target black_hole
 black_hole_EXTERNAL_OBJECTS =
@@ -126,12 +141,13 @@ black_hole_EXTERNAL_OBJECTS =
 black_hole: CMakeFiles/black_hole.dir/src/main.cpp.o
 black_hole: CMakeFiles/black_hole.dir/src/glad.c.o
 black_hole: CMakeFiles/black_hole.dir/src/shader.cpp.o
+black_hole: CMakeFiles/black_hole.dir/src/ball.cpp.o
 black_hole: CMakeFiles/black_hole.dir/build.make
 black_hole: /usr/local/lib/libglfw3.a
 black_hole: /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework
 black_hole: libglad.a
 black_hole: CMakeFiles/black_hole.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable black_hole"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/hvu/Personal_Projects/game/test/swinging_pendulum/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable black_hole"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/black_hole.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -143,6 +159,6 @@ CMakeFiles/black_hole.dir/clean:
 .PHONY : CMakeFiles/black_hole.dir/clean
 
 CMakeFiles/black_hole.dir/depend:
-	cd /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/build /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/build /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/build/CMakeFiles/black_hole.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/hvu/Personal_Projects/game/test/swinging_pendulum/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/hvu/Personal_Projects/game/test/swinging_pendulum /Users/hvu/Personal_Projects/game/test/swinging_pendulum /Users/hvu/Personal_Projects/game/test/swinging_pendulum/build /Users/hvu/Personal_Projects/game/test/swinging_pendulum/build /Users/hvu/Personal_Projects/game/test/swinging_pendulum/build/CMakeFiles/black_hole.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/black_hole.dir/depend
 

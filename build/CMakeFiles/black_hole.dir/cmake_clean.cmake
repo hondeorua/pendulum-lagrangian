@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/black_hole.dir/src/ball.cpp.o"
+  "CMakeFiles/black_hole.dir/src/ball.cpp.o.d"
   "CMakeFiles/black_hole.dir/src/glad.c.o"
   "CMakeFiles/black_hole.dir/src/glad.c.o.d"
   "CMakeFiles/black_hole.dir/src/main.cpp.o"

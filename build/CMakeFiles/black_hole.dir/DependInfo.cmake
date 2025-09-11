@@ -8,9 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/src/glad.c" "CMakeFiles/black_hole.dir/src/glad.c.o" "gcc" "CMakeFiles/black_hole.dir/src/glad.c.o.d"
-  "/Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/src/main.cpp" "CMakeFiles/black_hole.dir/src/main.cpp.o" "gcc" "CMakeFiles/black_hole.dir/src/main.cpp.o.d"
-  "/Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/src/shader.cpp" "CMakeFiles/black_hole.dir/src/shader.cpp.o" "gcc" "CMakeFiles/black_hole.dir/src/shader.cpp.o.d"
+  "/Users/hvu/Personal_Projects/game/test/swinging_pendulum/src/glad.c" "CMakeFiles/black_hole.dir/src/glad.c.o" "gcc" "CMakeFiles/black_hole.dir/src/glad.c.o.d"
+  "/Users/hvu/Personal_Projects/game/test/swinging_pendulum/src/ball.cpp" "CMakeFiles/black_hole.dir/src/ball.cpp.o" "gcc" "CMakeFiles/black_hole.dir/src/ball.cpp.o.d"
+  "/Users/hvu/Personal_Projects/game/test/swinging_pendulum/src/main.cpp" "CMakeFiles/black_hole.dir/src/main.cpp.o" "gcc" "CMakeFiles/black_hole.dir/src/main.cpp.o.d"
+  "/Users/hvu/Personal_Projects/game/test/swinging_pendulum/src/shader.cpp" "CMakeFiles/black_hole.dir/src/shader.cpp.o" "gcc" "CMakeFiles/black_hole.dir/src/shader.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

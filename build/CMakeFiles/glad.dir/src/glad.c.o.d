@@ -1,5 +1,5 @@
 CMakeFiles/glad.dir/src/glad.c.o: \
-  /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/src/glad.c \
+  /Users/hvu/Personal_Projects/game/test/swinging_pendulum/src/glad.c \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_bounds.h \
@@ -92,7 +92,7 @@ CMakeFiles/glad.dir/src/glad.c.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_strings.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/secure/_strings.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/secure/_string.h \
-  /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/glad/glad.h \
-  /Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes/KHR/khrplatform.h \
+  /Users/hvu/Personal_Projects/game/test/swinging_pendulum/includes/glad/glad.h \
+  /Users/hvu/Personal_Projects/game/test/swinging_pendulum/includes/KHR/khrplatform.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/dlfcn.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdbool.h

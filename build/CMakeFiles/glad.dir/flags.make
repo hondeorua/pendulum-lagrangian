@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = 
 
-C_INCLUDES = -I/Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/includes
+C_INCLUDES = -I/Users/hvu/Personal_Projects/game/test/swinging_pendulum/includes
 
 C_FLAGSarm64 =  -arch arm64
 

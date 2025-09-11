@@ -1,4 +1,5 @@
 #include "shader.hpp"
+#include "glm/gtc/type_ptr.hpp"
 
 Shader::Shader(const char *vertexPath, const char *fragmentPath) {
   std::ifstream vert_shader;
@@ -11,7 +12,8 @@ Shader::Shader(const char *vertexPath, const char *fragmentPath) {
   while (std::getline(vert_shader, line)) {
     vert_shader_source += "\n" + line;
   }
-  // std::cout << "vert shader: " << std::endl << vert_shader_source << std::endl;
+  // std::cout << "vert shader: " << std::endl << vert_shader_source <<
+  // std::endl;
   vert_shader.close();
 
   unsigned int vertex_shader = glCreateShader(GL_VERTEX_SHADER);
@@ -36,7 +38,8 @@ Shader::Shader(const char *vertexPath, const char *fragmentPath) {
   while (std::getline(frag_shader, line)) {
     frag_shader_source += "\n" + line;
   }
-  // std::cout << "frag shader: " << std::endl << frag_shader_source << std::endl;
+  // std::cout << "frag shader: " << std::endl << frag_shader_source <<
+  // std::endl;
   frag_shader.close();
 
   unsigned int fragment_shader = glCreateShader(GL_FRAGMENT_SHADER);
@@ -79,4 +82,12 @@ void Shader::setInt(const char *name, int value) const {
 void Shader::setFloat(const char *name, float value) const {
   unsigned int uniformLocation = glGetUniformLocation(shaderID, name);
   glUniform1f(uniformLocation, value);
+}
+void Shader::setFloat3f(const char *name, glm::vec3& value) const {
+  unsigned int uniformLocation = glGetUniformLocation(shaderID, name);
+  glUniform3f(uniformLocation, value.x, value.y, value.z);
+}
+void Shader::setMatrix4fv(const char *name, glm::mat4& value) const {
+  unsigned int uniformLocation = glGetUniformLocation(shaderID, name);
+  glUniformMatrix4fv(uniformLocation, 1, GL_FALSE, glm::value_ptr(value));
 }

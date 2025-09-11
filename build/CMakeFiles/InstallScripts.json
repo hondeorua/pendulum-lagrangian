@@ -1,7 +1,7 @@
 {
 	"InstallScripts" : 
 	[
-		"/Users/hvu/Personal_Projects/game/test/openGL_cpp_blackhole/build/cmake_install.cmake"
+		"/Users/hvu/Personal_Projects/game/test/swinging_pendulum/build/cmake_install.cmake"
 	],
 	"Parallel" : false
 }
