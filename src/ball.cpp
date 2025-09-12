@@ -1,8 +1,8 @@
 #include "ball.hpp"
 // #include "container.hpp"
 
-Ball::Ball(unsigned int resolution, float aspect_h_over_w)
-    : vertices(resolution * 2 + 4) {
+Ball::Ball(unsigned int resolution, float aspect_h_over_w, bool isPivot)
+    : vertices(resolution * 2 + 4), isPivot(isPivot) {
 
   vertices[0] = 0.0;
   vertices[1] = 0.0;
