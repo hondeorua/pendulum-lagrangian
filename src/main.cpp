@@ -1,7 +1,6 @@
 #include "ball.hpp"
 #include "shader.hpp" //this header file already has the other #include
 #include <GLFW/glfw3.h>
-#include <cmath>
 #include <glm/glm.hpp>
 #include <glm/gtc/matrix_transform.hpp>
 #include <glm/gtc/type_ptr.hpp>
@@ -11,7 +10,10 @@
 constexpr unsigned int resolution = 50;
 constexpr unsigned int WINDOW_WIDTH = 1200;
 constexpr unsigned int WINDOW_HEIGHT = 800;
-constexpr float SCALE = 0.05f;
+constexpr float SMALL_SCALE = 0.005f;
+constexpr float LARGE_SCALE = 0.01f;
+
+constexpr float LENGTH_OF_ROD = 0.2f;
 
 constexpr float aspect_h_over_w =
     static_cast<float>(WINDOW_HEIGHT) / WINDOW_WIDTH;
@@ -21,6 +23,10 @@ constexpr glm::vec3 gravity = glm::vec3(0, -9.81, 0);
 GLFWwindow *window;
 
 void framebuffer_size_callback(GLFWwindow *window, int width, int height);
+
+struct Rod {
+  float vertices[4];
+};
 
 int main() {
 
@@ -56,15 +62,14 @@ int main() {
   Shader shader("../src/shaders/shader.vert", "../src/shaders/shader.frag");
 
   Ball pivot_point(resolution, aspect_h_over_w);
-
   pivot_point.position = glm::vec3(0, 0, 0);
 
-  unsigned int VAO, VBO;
-  glGenVertexArrays(1, &VAO);
-  glGenBuffers(1, &VBO);
+  unsigned int VAO_pivot, VBO_pivot;
+  glGenVertexArrays(1, &VAO_pivot);
+  glGenBuffers(1, &VBO_pivot);
 
-  glBindVertexArray(VAO);
-  glBindBuffer(GL_ARRAY_BUFFER, VBO);
+  glBindVertexArray(VAO_pivot);
+  glBindBuffer(GL_ARRAY_BUFFER, VBO_pivot);
   glBufferData(GL_ARRAY_BUFFER, pivot_point.vertices.size() * sizeof(float),
                pivot_point.vertices.data(), GL_STATIC_DRAW);
   glVertexAttribPointer(0, 2, GL_FLOAT, GL_FALSE, 2 * sizeof(float),
@@ -74,11 +79,55 @@ int main() {
   glBindBuffer(GL_ARRAY_BUFFER, 0);
   glBindVertexArray(0);
 
-  glm::mat4 aTrans = glm::mat4(1.0f);
-  aTrans = glm::scale(aTrans, glm::vec3(1, 1, 1) * SCALE);
+  Ball mass1(resolution, aspect_h_over_w);
+  pivot_point.position = glm::vec3(0, 0, 0);
+
+  unsigned int VAO_mass1, VBO_mass1;
+  glGenVertexArrays(1, &VAO_mass1);
+  glGenBuffers(1, &VBO_mass1);
+
+  glBindVertexArray(VAO_mass1);
+  glBindBuffer(GL_ARRAY_BUFFER, VBO_mass1);
+  glBufferData(GL_ARRAY_BUFFER, mass1.vertices.size() * sizeof(float),
+               mass1.vertices.data(), GL_STATIC_DRAW);
+  glVertexAttribPointer(0, 2, GL_FLOAT, GL_FALSE, 2 * sizeof(float),
+                        (void *)(0 * sizeof(float)));
+  glEnableVertexAttribArray(0);
+
+  glBindBuffer(GL_ARRAY_BUFFER, 0);
+  glBindVertexArray(0);
+
+  pivot_point.position = glm::vec3(0, 0.5, 0);
+  pivot_point.aTrans = glm::translate(pivot_point.aTrans, pivot_point.position);
+  pivot_point.aTrans =
+      glm::scale(pivot_point.aTrans, glm::vec3(1) * SMALL_SCALE);
+
+  mass1.position = glm::vec3(0, 0.0, 0);
+  mass1.aTrans = glm::translate(mass1.aTrans, mass1.position);
+  mass1.aTrans = glm::scale(mass1.aTrans, glm::vec3(1) * LARGE_SCALE);
+
+  float lines[4] = {
+      pivot_point.position.x,
+      pivot_point.position.y,
+      mass1.position.x,
+      mass1.position.y,
+  };
+
+  unsigned int VAO_lines, VBO_lines;
+  glGenVertexArrays(1, &VAO_lines);
+  glGenBuffers(1, &VBO_lines);
+
+  glBindVertexArray(VAO_lines);
+  glBindBuffer(GL_ARRAY_BUFFER, VBO_lines);
+  glBufferData(GL_ARRAY_BUFFER, sizeof(lines), lines, GL_STATIC_DRAW);
+  glVertexAttribPointer(0, 2, GL_FLOAT, GL_FALSE, 2 * sizeof(float),
+                        (void *)(0 * sizeof(float)));
+  glEnableVertexAttribArray(0);
+
+  glBindBuffer(GL_ARRAY_BUFFER, 0);
+  glBindVertexArray(0);
 
   float last_time = glfwGetTime();
-
   glfwSwapInterval(0);
   while (!glfwWindowShouldClose(window)) {
 
@@ -90,10 +139,22 @@ int main() {
     last_time = current_time;
 
     shader.use();
-    shader.setMatrix4fv("aTrans", aTrans);
+    shader.setFloat3f("aColor", mass1.color);
 
-    glBindVertexArray(VAO);
+    glBindVertexArray(VAO_pivot);
+    shader.setMatrix4fv("aTrans", pivot_point.aTrans);
     glDrawArrays(GL_TRIANGLE_FAN, 0, resolution + 2);
+
+    glBindVertexArray(VAO_mass1);
+    shader.setMatrix4fv("aTrans", mass1.aTrans);
+    glDrawArrays(GL_TRIANGLE_FAN, 0, resolution + 2);
+
+    glBindVertexArray(VAO_lines);
+    glm::mat4 aTrans = glm::mat4(1.0f);
+    shader.setMatrix4fv("aTrans", aTrans);
+    glm::vec3 rod_color =  glm::vec3(0.2f, 0.2f, 0.2f);
+    shader.setFloat3f("aColor", rod_color);
+    glDrawArrays(GL_LINE_STRIP, 0, 2);
 
     glfwSwapBuffers(window);
     glfwPollEvents();

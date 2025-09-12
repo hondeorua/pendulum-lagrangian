@@ -7,26 +7,26 @@
 },
 {
   "directory": "/Users/hvu/Personal_Projects/game/test/swinging_pendulum/build",
-  "command": "/usr/bin/c++  -I/Users/hvu/Personal_Projects/game/test/swinging_pendulum/includes -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -std=gnu++17 -arch arm64 -o CMakeFiles/black_hole.dir/src/main.cpp.o -c /Users/hvu/Personal_Projects/game/test/swinging_pendulum/src/main.cpp",
+  "command": "/usr/bin/c++  -I/Users/hvu/Personal_Projects/game/test/swinging_pendulum/includes -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -std=gnu++17 -arch arm64 -o CMakeFiles/pendulum.dir/src/main.cpp.o -c /Users/hvu/Personal_Projects/game/test/swinging_pendulum/src/main.cpp",
   "file": "/Users/hvu/Personal_Projects/game/test/swinging_pendulum/src/main.cpp",
-  "output": "CMakeFiles/black_hole.dir/src/main.cpp.o"
+  "output": "CMakeFiles/pendulum.dir/src/main.cpp.o"
 },
 {
   "directory": "/Users/hvu/Personal_Projects/game/test/swinging_pendulum/build",
-  "command": "/usr/bin/cc  -I/Users/hvu/Personal_Projects/game/test/swinging_pendulum/includes -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks  -arch arm64 -o CMakeFiles/black_hole.dir/src/glad.c.o -c /Users/hvu/Personal_Projects/game/test/swinging_pendulum/src/glad.c",
+  "command": "/usr/bin/cc  -I/Users/hvu/Personal_Projects/game/test/swinging_pendulum/includes -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks  -arch arm64 -o CMakeFiles/pendulum.dir/src/glad.c.o -c /Users/hvu/Personal_Projects/game/test/swinging_pendulum/src/glad.c",
   "file": "/Users/hvu/Personal_Projects/game/test/swinging_pendulum/src/glad.c",
-  "output": "CMakeFiles/black_hole.dir/src/glad.c.o"
+  "output": "CMakeFiles/pendulum.dir/src/glad.c.o"
 },
 {
   "directory": "/Users/hvu/Personal_Projects/game/test/swinging_pendulum/build",
-  "command": "/usr/bin/c++  -I/Users/hvu/Personal_Projects/game/test/swinging_pendulum/includes -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -std=gnu++17 -arch arm64 -o CMakeFiles/black_hole.dir/src/shader.cpp.o -c /Users/hvu/Personal_Projects/game/test/swinging_pendulum/src/shader.cpp",
+  "command": "/usr/bin/c++  -I/Users/hvu/Personal_Projects/game/test/swinging_pendulum/includes -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -std=gnu++17 -arch arm64 -o CMakeFiles/pendulum.dir/src/shader.cpp.o -c /Users/hvu/Personal_Projects/game/test/swinging_pendulum/src/shader.cpp",
   "file": "/Users/hvu/Personal_Projects/game/test/swinging_pendulum/src/shader.cpp",
-  "output": "CMakeFiles/black_hole.dir/src/shader.cpp.o"
+  "output": "CMakeFiles/pendulum.dir/src/shader.cpp.o"
 },
 {
   "directory": "/Users/hvu/Personal_Projects/game/test/swinging_pendulum/build",
-  "command": "/usr/bin/c++  -I/Users/hvu/Personal_Projects/game/test/swinging_pendulum/includes -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -std=gnu++17 -arch arm64 -o CMakeFiles/black_hole.dir/src/ball.cpp.o -c /Users/hvu/Personal_Projects/game/test/swinging_pendulum/src/ball.cpp",
+  "command": "/usr/bin/c++  -I/Users/hvu/Personal_Projects/game/test/swinging_pendulum/includes -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -std=gnu++17 -arch arm64 -o CMakeFiles/pendulum.dir/src/ball.cpp.o -c /Users/hvu/Personal_Projects/game/test/swinging_pendulum/src/ball.cpp",
   "file": "/Users/hvu/Personal_Projects/game/test/swinging_pendulum/src/ball.cpp",
-  "output": "CMakeFiles/black_hole.dir/src/ball.cpp.o"
+  "output": "CMakeFiles/pendulum.dir/src/ball.cpp.o"
 }
 ]

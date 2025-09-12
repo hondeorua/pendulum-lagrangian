@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.10)
 set (CMAKE_EXPORT_COMPILE_COMMANDS ON)
-project(black_hole)
+project(pendulum)
 # cmake_policy(SET CMP0072 NEW)
 
 set(CMAKE_CXX_STANDARD 17)
@@ -15,6 +15,6 @@ target_include_directories(glad PUBLIC includes)
 
 find_package(glm CONFIG REQUIRED)
 
-add_executable(black_hole src/main.cpp src/glad.c src/shader.cpp src/ball.cpp)
+add_executable(pendulum src/main.cpp src/glad.c src/shader.cpp src/ball.cpp)
 
-target_link_libraries(black_hole glm::glm-header-only glfw OpenGL::GL glad)
+target_link_libraries(pendulum glm::glm-header-only glfw OpenGL::GL glad)

@@ -1,4 +1,4 @@
-CMakeFiles/black_hole.dir/src/glad.c.o: \
+CMakeFiles/pendulum.dir/src/glad.c.o: \
   /Users/hvu/Personal_Projects/game/test/swinging_pendulum/src/glad.c \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_stdio.h \

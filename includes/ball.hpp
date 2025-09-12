@@ -15,8 +15,10 @@ public:
   glm::vec3 position;
   glm::vec3 velocity;
   glm::vec3 color;
+  glm::mat4 aTrans;
 
   Ball(unsigned int resolution, float aspect_h_over_w);
+
 private:
   float rando(float min, float max);
 };

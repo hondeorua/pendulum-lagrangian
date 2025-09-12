@@ -1,2 +1,2 @@
-# Empty dependencies file for black_hole.
+# Empty dependencies file for pendulum.
 # This may be replaced when dependencies are built.

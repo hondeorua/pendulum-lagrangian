@@ -1,4 +1,4 @@
 /Users/hvu/Personal_Projects/game/test/swinging_pendulum/build/CMakeFiles/glad.dir
-/Users/hvu/Personal_Projects/game/test/swinging_pendulum/build/CMakeFiles/black_hole.dir
+/Users/hvu/Personal_Projects/game/test/swinging_pendulum/build/CMakeFiles/pendulum.dir
 /Users/hvu/Personal_Projects/game/test/swinging_pendulum/build/CMakeFiles/edit_cache.dir
 /Users/hvu/Personal_Projects/game/test/swinging_pendulum/build/CMakeFiles/rebuild_cache.dir

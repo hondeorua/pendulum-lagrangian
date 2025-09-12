@@ -14,11 +14,13 @@ Ball::Ball(unsigned int resolution, float aspect_h_over_w)
   vertices[resolution * 2 + 2] = aspect_h_over_w;
   vertices[resolution * 2 + 3] = 0.0;
 
-  velocity = glm::vec3(rando(-3.0f, 3.0f), rando(-3.0f, 3.0f), 0.0f);
+  // velocity = glm::vec3(rando(-3.0f, 3.0f), rando(-3.0f, 3.0f), 0.0f);
   // position = glm::vec3(rando(Container::x, Container::x + Container::w)/2,
   // rando(Container::x, Container::x + Container::w)/2, 0.0f);
   // position = glm::vec3(rando(-1.0f, 1.0f) / 2, rando(-1.0f, 1.0f) / 2, 0.0f);
-  color = glm::vec3(rando(0.0f, 1.0f), rando(0.0f, 1.0f), rando(0.0f, 1.0f));
+  // color = glm::vec3(rando(0.0f, 1.0f), rando(0.0f, 1.0f), rando(0.0f, 1.0f));
+  color = glm::vec3(1.0f);
+  aTrans = glm::mat4(1.0);
 }
 
 float Ball::rando(float min, float max) {
@@ -28,3 +30,4 @@ float Ball::rando(float min, float max) {
 
   return dist(gen);
 }
+
