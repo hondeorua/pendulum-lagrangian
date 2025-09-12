@@ -1,5 +1,6 @@
-CMakeFiles/pendulum.dir/src/main.cpp.o: \
-  /Users/hvu/Personal_Projects/game/test/swinging_pendulum/src/main.cpp \
+CMakeFiles/pendulum.dir/src/rod.cpp.o: \
+  /Users/hvu/Personal_Projects/game/test/swinging_pendulum/src/rod.cpp \
+  /Users/hvu/Personal_Projects/game/test/swinging_pendulum/includes/rod.hpp \
   /Users/hvu/Personal_Projects/game/test/swinging_pendulum/includes/ball.hpp \
   /Users/hvu/Personal_Projects/game/test/swinging_pendulum/includes/glm/glm.hpp \
   /Users/hvu/Personal_Projects/game/test/swinging_pendulum/includes/glm/detail/_fixes.hpp \
@@ -1176,6 +1177,4 @@ CMakeFiles/pendulum.dir/src/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/u8path.h \
   /Users/hvu/Personal_Projects/game/test/swinging_pendulum/includes/glad/glad.h \
   /Users/hvu/Personal_Projects/game/test/swinging_pendulum/includes/KHR/khrplatform.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iostream \
-  /Users/hvu/Personal_Projects/game/test/swinging_pendulum/includes/GLFW/glfw3.h \
-  /Users/hvu/Personal_Projects/game/test/swinging_pendulum/includes/rod.hpp
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iostream

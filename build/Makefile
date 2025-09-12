@@ -217,6 +217,30 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pendulum.dir/build.make CMakeFiles/pendulum.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/rod.o: src/rod.cpp.o
+.PHONY : src/rod.o
+
+# target to build an object file
+src/rod.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pendulum.dir/build.make CMakeFiles/pendulum.dir/src/rod.cpp.o
+.PHONY : src/rod.cpp.o
+
+src/rod.i: src/rod.cpp.i
+.PHONY : src/rod.i
+
+# target to preprocess a source file
+src/rod.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pendulum.dir/build.make CMakeFiles/pendulum.dir/src/rod.cpp.i
+.PHONY : src/rod.cpp.i
+
+src/rod.s: src/rod.cpp.s
+.PHONY : src/rod.s
+
+# target to generate assembly for a file
+src/rod.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pendulum.dir/build.make CMakeFiles/pendulum.dir/src/rod.cpp.s
+.PHONY : src/rod.cpp.s
+
 src/shader.o: src/shader.cpp.o
 .PHONY : src/shader.o
 
@@ -260,6 +284,9 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/rod.o"
+	@echo "... src/rod.i"
+	@echo "... src/rod.s"
 	@echo "... src/shader.o"
 	@echo "... src/shader.i"
 	@echo "... src/shader.s"

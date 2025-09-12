@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/pendulum.dir/src/glad.c.o.d"
   "CMakeFiles/pendulum.dir/src/main.cpp.o"
   "CMakeFiles/pendulum.dir/src/main.cpp.o.d"
+  "CMakeFiles/pendulum.dir/src/rod.cpp.o"
+  "CMakeFiles/pendulum.dir/src/rod.cpp.o.d"
   "CMakeFiles/pendulum.dir/src/shader.cpp.o"
   "CMakeFiles/pendulum.dir/src/shader.cpp.o.d"
   "pendulum"
