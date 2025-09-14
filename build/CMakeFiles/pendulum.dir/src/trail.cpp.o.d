@@ -1177,5 +1177,4 @@ CMakeFiles/pendulum.dir/src/trail.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/u8path.h \
   /Users/hvu/Personal_Projects/game/test/swinging_pendulum/includes/glad/glad.h \
   /Users/hvu/Personal_Projects/game/test/swinging_pendulum/includes/KHR/khrplatform.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iostream \
-  /Users/hvu/Personal_Projects/game/test/swinging_pendulum/includes/glm/ext/matrix_transform.hpp
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iostream

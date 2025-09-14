@@ -1,22 +1,17 @@
 #include "trail.hpp"
-#include "glm/ext/matrix_transform.hpp"
 #include "shader.hpp"
 
-Trail::Trail(int length_of_trail, int resolution, float aspect_h_over_w,
-             float SCALE, Ball& ball_to_be_trailed)
-    : length(length_of_trail), ball_of_trail(Ball(resolution, aspect_h_over_w)),
-      scale(SCALE), resolution(resolution), ball_to_trail(&ball_to_be_trailed) {
+Trail::Trail(int length_of_trail, Ball &ball_to_be_trailed)
+    : length(length_of_trail), ball_to_trail(&ball_to_be_trailed) {
   glGenVertexArrays(1, &VAO);
   glGenBuffers(1, &VBO);
 
   glBindVertexArray(VAO);
   glBindBuffer(GL_ARRAY_BUFFER, VBO);
-  glBufferData(GL_ARRAY_BUFFER, ball_of_trail.vertices.size() * sizeof(float), ball_of_trail.vertices.data(),
-               GL_STATIC_DRAW);
+  glBufferData(GL_ARRAY_BUFFER, sizeof(float) * 2 * length, nullptr,
+               GL_DYNAMIC_DRAW);
   glVertexAttribPointer(0, 2, GL_FLOAT, GL_FALSE, 2 * sizeof(float), 0);
   glEnableVertexAttribArray(0);
-
-  // ball_of_trail.color *= 0.5;
 }
 
 void Trail::updateTrail() {
@@ -26,16 +21,18 @@ void Trail::updateTrail() {
 }
 
 void Trail::draw(Shader &shader) {
-  for (int i = 0; i < trail_position.size(); i++) {
-    glm::mat4 aTrans(1.0f);
-    aTrans = glm::translate(aTrans, trail_position[i]);
-    aTrans = glm::scale(aTrans, glm::vec3(1.0f) * scale);
+  shader.use();
+  shader.setInt("trailLength", length);
 
-    float alpha = static_cast<float>(i+1) / length;
-    shader.setMatrix4fv("aTrans", aTrans);
-    shader.setFloat4f("color", ball_of_trail.color, alpha);
-
-    glBindVertexArray(VAO);
-    glDrawArrays(GL_TRIANGLE_FAN, 0, resolution + 2);
+  std::vector<float> vertices;
+  for (glm::vec2 n : trail_position) {
+    vertices.push_back(n.x);
+    vertices.push_back(n.y);
   }
+
+  glBindVertexArray(VAO);
+  glBindBuffer(GL_ARRAY_BUFFER, VBO);
+  glBufferSubData(GL_ARRAY_BUFFER, 0, vertices.size() * sizeof(float),
+                  vertices.data());
+  glDrawArrays(GL_LINE_STRIP, 0, trail_position.size());
 }

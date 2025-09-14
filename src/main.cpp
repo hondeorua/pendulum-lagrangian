@@ -1,6 +1,5 @@
 #include "ball.hpp"
 #include "glm/ext/matrix_transform.hpp"
-#include "glm/geometric.hpp"
 #include "rod.hpp"
 #include "shader.hpp" //this header file already has the other #include
 #include "trail.hpp"
@@ -18,14 +17,14 @@ constexpr unsigned int WINDOW_WIDTH = 1000;
 constexpr unsigned int WINDOW_HEIGHT = 1000;
 constexpr float SMALL_SCALE = 0.005f;
 constexpr float LARGE_SCALE = 0.015f;
-constexpr unsigned int NUM_BALL = 5;
-constexpr float mass[] = {10000, 25.0, 3.5, 1.3, 0.5};
+constexpr unsigned int NUM_BALL = 6;
+std::vector<float> mass(NUM_BALL);
 
 // width of rod set to half a ball's diameter
 constexpr float WIDTH_OF_ROD = SMALL_SCALE;
 constexpr float LENGTH_OF_ROD = 0.2f;
 
-constexpr unsigned int LENGTH_OF_TRAIL = 1000;
+constexpr unsigned int LENGTH_OF_TRAIL = 5000;
 
 constexpr float aspect_h_over_w =
     static_cast<float>(WINDOW_HEIGHT) / WINDOW_WIDTH;
@@ -38,6 +37,10 @@ void framebuffer_size_callback(GLFWwindow *window, int width, int height);
 void enforce_constraints(Ball &ball1, Ball &ball2);
 
 int main() {
+  mass[0] = 10000;
+  for (int i = 1; i <= NUM_BALL; i++) {
+    mass[i] = mass[i - 1] / 100;
+  }
 
   std::cout << "program's running ech ech..." << '\n';
 
@@ -75,6 +78,17 @@ int main() {
                         "../src/shaders/shader-for-rod.frag");
   Shader shader_for_trail("../src/shaders/shader-for-trail.vert",
                           "../src/shaders/shader-for-trail.frag");
+
+  glm::mat4 projection = glm::ortho(-1.2f, 1.2f, // left, right
+                                    -1.2f, 1.2f, // bottom, top
+                                    -1.0f, 1.0f  // near, far
+  );
+  shader_for_particle.use();
+  shader_for_particle.setMatrix4fv("projection", projection);
+  shader_for_rod.use();
+  shader_for_rod.setMatrix4fv("projection", projection);
+  shader_for_trail.use();
+  shader_for_trail.setMatrix4fv("projection", projection);
 
   std::vector<Ball> balls;
   balls.reserve(NUM_BALL);
@@ -117,8 +131,9 @@ int main() {
 
   rods[0].length *= 1.5;
 
-  Trail trail(LENGTH_OF_TRAIL, resolution, aspect_h_over_w, SMALL_SCALE / 10,
-              balls[balls.size() - 1]);
+  // Trail trail2(LENGTH_OF_TRAIL/100, resolution, aspect_h_over_w, TRAIL_SCALE,
+  //             balls[balls.size() - 2]);
+  Trail trail(LENGTH_OF_TRAIL, balls[balls.size() - 1]);
 
   glEnable(GL_BLEND);
   glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
@@ -129,9 +144,10 @@ int main() {
     glClearColor(0.0f, 0.0f, 0.0f, 1.0f);
     glClear(GL_COLOR_BUFFER_BIT);
 
-    float current_time = glfwGetTime();
-    float dt = current_time - last_time;
-    last_time = current_time;
+    // float current_time = glfwGetTime();
+    // float dt = current_time - last_time;
+    // last_time = current_time;
+    float dt = 0.0005;
 
     for (Rod &rod : rods) {
       rod.updatePosition();
@@ -180,6 +196,9 @@ int main() {
 
     trail.updateTrail();
     trail.draw(shader_for_trail);
+
+    // trail2.updateTrail();
+    // trail2.draw(shader_for_trail);
 
     glfwSwapBuffers(window);
     glfwPollEvents();
