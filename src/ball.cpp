@@ -1,7 +1,7 @@
 #include "ball.hpp"
 // #include "container.hpp"
 
-Ball::Ball(unsigned int resolution, float aspect_h_over_w, bool isPivot)
+Ball::Ball(unsigned int resolution, float aspect_h_over_w, float mass_input, bool isPivot)
     : vertices(resolution * 2 + 4), isPivot(isPivot) {
 
   vertices[0] = 0.0;
@@ -14,13 +14,14 @@ Ball::Ball(unsigned int resolution, float aspect_h_over_w, bool isPivot)
   vertices[resolution * 2 + 2] = aspect_h_over_w;
   vertices[resolution * 2 + 3] = 0.0;
 
-  // velocity = glm::vec3(rando(-3.0f, 3.0f), rando(-3.0f, 3.0f), 0.0f);
+  velocity = glm::vec3(0.0f);
   // position = glm::vec3(rando(Container::x, Container::x + Container::w)/2,
   // rando(Container::x, Container::x + Container::w)/2, 0.0f);
   // position = glm::vec3(rando(-1.0f, 1.0f) / 2, rando(-1.0f, 1.0f) / 2, 0.0f);
   // color = glm::vec3(rando(0.0f, 1.0f), rando(0.0f, 1.0f), rando(0.0f, 1.0f));
   color = glm::vec3(1.0f);
   aTrans = glm::mat4(1.0);
+  mass = mass_input;
 }
 
 float Ball::rando(float min, float max) {

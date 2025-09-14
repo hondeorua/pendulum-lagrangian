@@ -21,6 +21,7 @@ public:
   void setInt(const char *name, int value) const;
   void setFloat(const char *name, float value) const;
   void setFloat3f(const char *name, glm::vec3 &value) const;
+  void setFloat4f(const char *name, glm::vec3 &value, float alpha) const;
   void setMatrix4fv(const char *name, glm::mat4 &value) const;
 };
 

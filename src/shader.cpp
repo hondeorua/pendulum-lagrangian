@@ -87,6 +87,10 @@ void Shader::setFloat3f(const char *name, glm::vec3& value) const {
   unsigned int uniformLocation = glGetUniformLocation(shaderID, name);
   glUniform3f(uniformLocation, value.x, value.y, value.z);
 }
+void Shader::setFloat4f(const char *name, glm::vec3& value, float alpha) const {
+  unsigned int uniformLocation = glGetUniformLocation(shaderID, name);
+  glUniform4f(uniformLocation, value.x, value.y, value.z, alpha);
+}
 void Shader::setMatrix4fv(const char *name, glm::mat4& value) const {
   unsigned int uniformLocation = glGetUniformLocation(shaderID, name);
   glUniformMatrix4fv(uniformLocation, 1, GL_FALSE, glm::value_ptr(value));

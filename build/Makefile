@@ -265,6 +265,30 @@ src/shader.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pendulum.dir/build.make CMakeFiles/pendulum.dir/src/shader.cpp.s
 .PHONY : src/shader.cpp.s
 
+src/trail.o: src/trail.cpp.o
+.PHONY : src/trail.o
+
+# target to build an object file
+src/trail.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pendulum.dir/build.make CMakeFiles/pendulum.dir/src/trail.cpp.o
+.PHONY : src/trail.cpp.o
+
+src/trail.i: src/trail.cpp.i
+.PHONY : src/trail.i
+
+# target to preprocess a source file
+src/trail.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pendulum.dir/build.make CMakeFiles/pendulum.dir/src/trail.cpp.i
+.PHONY : src/trail.cpp.i
+
+src/trail.s: src/trail.cpp.s
+.PHONY : src/trail.s
+
+# target to generate assembly for a file
+src/trail.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pendulum.dir/build.make CMakeFiles/pendulum.dir/src/trail.cpp.s
+.PHONY : src/trail.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -290,6 +314,9 @@ help:
 	@echo "... src/shader.o"
 	@echo "... src/shader.i"
 	@echo "... src/shader.s"
+	@echo "... src/trail.o"
+	@echo "... src/trail.i"
+	@echo "... src/trail.s"
 .PHONY : help
 
 
