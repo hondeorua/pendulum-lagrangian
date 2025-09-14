@@ -113,7 +113,7 @@ int main() {
 
   balls[0].isPivot = true;
 
-  balls[0].position = glm::vec3(0, 0.5, 0);
+  balls[0].position = glm::vec3(0, 0.2, 0);
   balls[0].aTrans = glm::translate(balls[0].aTrans, balls[0].position);
   balls[0].aTrans = glm::scale(balls[0].aTrans, glm::vec3(1) * SMALL_SCALE);
 
