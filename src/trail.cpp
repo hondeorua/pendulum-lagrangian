@@ -22,7 +22,7 @@ void Trail::updateTrail() {
 
 void Trail::draw(Shader &shader) {
   shader.use();
-  shader.setInt("trailLength", length);
+  shader.setInt("currtrailLength", trail_position.size());
 
   std::vector<float> vertices;
   for (glm::vec2 n : trail_position) {

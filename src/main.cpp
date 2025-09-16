@@ -11,14 +11,13 @@
 // #include <glm/gtx/string_cast.hpp>
 #include <iostream>
 #include <ostream>
+#include <stdexcept>
 
-constexpr unsigned int resolution = 30;
+constexpr unsigned int resolution = 20;
 constexpr unsigned int WINDOW_WIDTH = 1000;
 constexpr unsigned int WINDOW_HEIGHT = 1000;
 constexpr float SMALL_SCALE = 0.005f;
 constexpr float LARGE_SCALE = 0.015f;
-constexpr unsigned int NUM_BALL = 6;
-std::vector<float> mass(NUM_BALL);
 
 // width of rod set to half a ball's diameter
 constexpr float WIDTH_OF_ROD = SMALL_SCALE;
@@ -36,10 +35,16 @@ GLFWwindow *window;
 void framebuffer_size_callback(GLFWwindow *window, int width, int height);
 void enforce_constraints(Ball &ball1, Ball &ball2);
 
-int main() {
-  mass[0] = 10000;
+int main(int argc, char *argv[]) {
+  if (argc != 2)
+    throw std::invalid_argument("Wrong number of argumets");
+  const unsigned int NUM_BALL = std::stoi(argv[1]);
+  float projection_zoom = LENGTH_OF_ROD * (NUM_BALL - 1) + 0.5f;
+
+  std::vector<float> mass(NUM_BALL);
+  mass[0] = 10000000;
   for (int i = 1; i <= NUM_BALL; i++) {
-    mass[i] = mass[i - 1] / 100;
+    mass[i] = mass[i - 1] / 10;
   }
 
   std::cout << "program's running ech ech..." << '\n';
@@ -79,10 +84,11 @@ int main() {
   Shader shader_for_trail("../src/shaders/shader-for-trail.vert",
                           "../src/shaders/shader-for-trail.frag");
 
-  glm::mat4 projection = glm::ortho(-1.2f, 1.2f, // left, right
-                                    -1.2f, 1.2f, // bottom, top
-                                    -1.0f, 1.0f  // near, far
-  );
+  glm::mat4 projection =
+      glm::ortho(-projection_zoom, projection_zoom, // left, right
+                 -projection_zoom, projection_zoom, // bottom, top
+                 -1.0f, 1.0f                        // near, far
+      );
   shader_for_particle.use();
   shader_for_particle.setMatrix4fv("projection", projection);
   shader_for_rod.use();
@@ -129,10 +135,6 @@ int main() {
     rods.emplace_back(balls[i], balls[i + 1], LENGTH_OF_ROD, WIDTH_OF_ROD);
   }
 
-  rods[0].length *= 1.5;
-
-  // Trail trail2(LENGTH_OF_TRAIL/100, resolution, aspect_h_over_w, TRAIL_SCALE,
-  //             balls[balls.size() - 2]);
   Trail trail(LENGTH_OF_TRAIL, balls[balls.size() - 1]);
 
   glEnable(GL_BLEND);
@@ -144,10 +146,10 @@ int main() {
     glClearColor(0.0f, 0.0f, 0.0f, 1.0f);
     glClear(GL_COLOR_BUFFER_BIT);
 
-    // float current_time = glfwGetTime();
-    // float dt = current_time - last_time;
-    // last_time = current_time;
-    float dt = 0.0005;
+    float current_time = glfwGetTime();
+    float dt = current_time - last_time;
+    last_time = current_time;
+    // float dt = 0.0005;
 
     for (Rod &rod : rods) {
       rod.updatePosition();
