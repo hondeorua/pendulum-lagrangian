@@ -35,16 +35,17 @@ GLFWwindow *window;
 void framebuffer_size_callback(GLFWwindow *window, int width, int height);
 void enforce_constraints(Ball &ball1, Ball &ball2);
 
-int main(int argc, char *argv[]) {
-  if (argc != 2)
-    throw std::invalid_argument("Wrong number of argumets");
-  const unsigned int NUM_BALL = std::stoi(argv[1]);
+// int main(int argc, char *argv[]) {
+int main() {
+  // if (argc != 2)
+  //   throw std::invalid_argument("Wrong number of argumets");
+  // const unsigned int NUM_BALL = std::stoi(argv[1]);
+  const unsigned int NUM_BALL = 3;
   float projection_zoom = LENGTH_OF_ROD * (NUM_BALL - 1) + 0.5f;
 
   std::vector<float> mass(NUM_BALL);
-  mass[0] = 10000000;
-  for (int i = 1; i <= NUM_BALL; i++) {
-    mass[i] = mass[i - 1] / 10;
+  for (int i = 0; i < NUM_BALL; i++) {
+    mass[i] = 1;
   }
 
   std::cout << "program's running ech ech..." << '\n';
@@ -141,7 +142,7 @@ int main(int argc, char *argv[]) {
   glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
 
   float last_time = glfwGetTime();
-  glfwSwapInterval(0);
+  // glfwSwapInterval(0);
   while (!glfwWindowShouldClose(window)) {
     glClearColor(0.0f, 0.0f, 0.0f, 1.0f);
     glClear(GL_COLOR_BUFFER_BIT);
@@ -149,7 +150,7 @@ int main(int argc, char *argv[]) {
     float current_time = glfwGetTime();
     float dt = current_time - last_time;
     last_time = current_time;
-    // float dt = 0.0005;
+    // float dt = 0.02;
 
     for (Rod &rod : rods) {
       rod.updatePosition();
