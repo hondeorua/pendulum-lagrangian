@@ -1,8 +1,4 @@
 #include "shader.hpp"
-#include <fstream>
-#include <iostream>
-#include <stdexcept>
-#include <string>
 
 void Shader::CreateShaderProgram(unsigned int &vertex, unsigned int &fragment) {
   int success;

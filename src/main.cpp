@@ -1,5 +1,6 @@
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
+#include "shader.hpp"
 #include <iostream>
 
 int main() {
@@ -23,6 +24,8 @@ int main() {
     std::cerr << "Failed to initialize GLAD\n";
     return -1;
   }
+
+  Shader ballShader("../src/shader/ball.vert", "../src/shader/ball.frag");
 
   while (!glfwWindowShouldClose(window)) {
     glClear(GL_COLOR_BUFFER_BIT);
