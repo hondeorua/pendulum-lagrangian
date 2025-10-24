@@ -1,3 +1,4 @@
+#include <glad/glad.h>
 #include "shader.hpp"
 
 void Shader::CreateShaderProgram(unsigned int &vertex, unsigned int &fragment) {
@@ -27,7 +28,7 @@ Shader::Shader(const char *vertexPath, const char *fragmentPath) {
     throw std::runtime_error("Cannot open vertex source file");
   std::string vertexCode = "";
   while (std::getline(vertexIfs, line)) {
-    vertexCode += line;
+    vertexCode += '\n' + line;
   }
   const char *vertexCodeCStyle = vertexCode.c_str();
 
@@ -37,7 +38,7 @@ Shader::Shader(const char *vertexPath, const char *fragmentPath) {
     throw std::runtime_error("Cannot open fragment source file");
   std::string fragmentCode = "";
   while (std::getline(fragmentIfs, line)) {
-    fragmentCode += line;
+    fragmentCode += '\n' + line;
   }
   const char *fragmentCodeCStyle = fragmentCode.c_str();
 

@@ -2,13 +2,17 @@
 #include "constant.hpp"
 
 Ball::Ball() {
+  // Center
   vertices[0] = 0.0;
   vertices[1] = 0.0;
+
   for (unsigned int i = 1; i <= resolution; ++i) {
     double theta = 2 * PI * i / resolution;
     vertices[2 * i] = std::cos(theta);
     vertices[2 * i + 1] = std::sin(theta);
   }
+
+  // Add needed point to complete triagle
   vertices[2 * resolution + 2] = vertices[2];
   vertices[2 * resolution + 3] = vertices[3];
   setupVAO();
