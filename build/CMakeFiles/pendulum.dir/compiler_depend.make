@@ -10,6 +10,7 @@ CMakeFiles/pendulum.dir/src/ball.cpp.o: /Users/hvu/Personal_Projects/game/test/s
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/__wctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/__xlocale.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_abort.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_assert.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_bounds.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_ctermid.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_ctype.h \
@@ -17,6 +18,7 @@ CMakeFiles/pendulum.dir/src/ball.cpp.o: /Users/hvu/Personal_Projects/game/test/s
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_locale_posix2008.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_mb_cur_max.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_printf.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_static_assert.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_stdlib.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_string.h \
@@ -45,6 +47,7 @@ CMakeFiles/pendulum.dir/src/ball.cpp.o: /Users/hvu/Personal_Projects/game/test/s
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/arm/limits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/arm/signal.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/arm/types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/assert.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/adjacent_find.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/all_of.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/any_of.h \
@@ -770,8 +773,10 @@ CMakeFiles/pendulum.dir/src/ball.cpp.o: /Users/hvu/Personal_Projects/game/test/s
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/atomic \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/bit \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/bitset \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cassert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cctype \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cerrno \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cfloat \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/climits \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/clocale \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cmath \
@@ -791,6 +796,7 @@ CMakeFiles/pendulum.dir/src/ball.cpp.o: /Users/hvu/Personal_Projects/game/test/s
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/errno.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/exception \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/filesystem \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/float.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/format \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/fstream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/functional \
@@ -835,6 +841,7 @@ CMakeFiles/pendulum.dir/src/ball.cpp.o: /Users/hvu/Personal_Projects/game/test/s
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/wctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/ctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/errno.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/float.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/_OSByteOrder.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/arm/_OSByteOrder.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/limits.h \
@@ -978,6 +985,7 @@ CMakeFiles/pendulum.dir/src/ball.cpp.o: /Users/hvu/Personal_Projects/game/test/s
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_rsize_t.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_size_t.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_wchar_t.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/17/include/float.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/limits.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdarg.h \
@@ -988,7 +996,308 @@ CMakeFiles/pendulum.dir/src/ball.cpp.o: /Users/hvu/Personal_Projects/game/test/s
   /Users/hvu/Personal_Projects/game/test/swinging_pendulum/includes/ball.hpp \
   /Users/hvu/Personal_Projects/game/test/swinging_pendulum/includes/constant.hpp \
   /Users/hvu/Personal_Projects/game/test/swinging_pendulum/includes/glad/glad.h \
-  /Users/hvu/Personal_Projects/game/test/swinging_pendulum/includes/shader.hpp
+  /Users/hvu/Personal_Projects/game/test/swinging_pendulum/includes/shader.hpp \
+  /usr/local/include/glm/common.hpp \
+  /usr/local/include/glm/common.hpp \
+  /usr/local/include/glm/vector_relational.hpp \
+  /usr/local/include/glm/detail/_vectorize.hpp \
+  /usr/local/include/glm/detail/func_exponential.inl \
+  /usr/local/include/glm/detail/func_vector_relational.inl \
+  /usr/local/include/glm/detail/qualifier.hpp \
+  /usr/local/include/glm/detail/setup.hpp \
+  /usr/local/include/glm/detail/type_vec1.hpp \
+  /usr/local/include/glm/detail/type_vec2.hpp \
+  /usr/local/include/glm/detail/type_vec3.hpp \
+  /usr/local/include/glm/detail/type_vec4.hpp \
+  /usr/local/include/glm/exponential.hpp \
+  /usr/local/include/glm/vector_relational.hpp \
+  /usr/local/include/glm/detail/compute_vector_relational.hpp \
+  /usr/local/include/glm/detail/_fixes.hpp \
+  /usr/local/include/glm/detail/_vectorize.hpp \
+  /usr/local/include/glm/detail/compute_common.hpp \
+  /usr/local/include/glm/detail/func_common.inl \
+  /usr/local/include/glm/detail/func_geometric.inl \
+  /usr/local/include/glm/detail/qualifier.hpp \
+  /usr/local/include/glm/detail/setup.hpp \
+  /usr/local/include/glm/detail/type_vec1.hpp \
+  /usr/local/include/glm/detail/type_vec1.inl \
+  /usr/local/include/glm/detail/type_vec2.hpp \
+  /usr/local/include/glm/detail/type_vec3.hpp \
+  /usr/local/include/glm/detail/type_vec4.hpp \
+  /usr/local/include/glm/geometric.hpp \
+  /usr/local/include/glm/matrix.hpp \
+  /usr/local/include/glm/detail/type_mat2x2.hpp \
+  /usr/local/include/glm/detail/type_mat2x3.hpp \
+  /usr/local/include/glm/detail/type_mat2x3.inl \
+  /usr/local/include/glm/detail/type_mat2x4.hpp \
+  /usr/local/include/glm/detail/type_mat2x4.inl \
+  /usr/local/include/glm/detail/type_mat3x2.hpp \
+  /usr/local/include/glm/detail/type_mat3x2.inl \
+  /usr/local/include/glm/detail/type_mat3x3.hpp \
+  /usr/local/include/glm/detail/type_mat3x3.inl \
+  /usr/local/include/glm/detail/type_mat3x4.hpp \
+  /usr/local/include/glm/detail/type_mat3x4.inl \
+  /usr/local/include/glm/detail/type_mat4x2.hpp \
+  /usr/local/include/glm/detail/type_mat4x2.inl \
+  /usr/local/include/glm/detail/type_mat4x3.hpp \
+  /usr/local/include/glm/detail/type_mat4x3.inl \
+  /usr/local/include/glm/detail/type_mat4x4.hpp \
+  /usr/local/include/glm/detail/type_mat4x4.inl \
+  /usr/local/include/glm/detail/type_vec2.hpp \
+  /usr/local/include/glm/detail/type_vec3.hpp \
+  /usr/local/include/glm/detail/type_vec4.hpp \
+  /usr/local/include/glm/ext/matrix_double2x3.hpp \
+  /usr/local/include/glm/ext/matrix_double2x3_precision.hpp \
+  /usr/local/include/glm/ext/matrix_double2x4.hpp \
+  /usr/local/include/glm/ext/matrix_double2x4_precision.hpp \
+  /usr/local/include/glm/ext/matrix_double3x2.hpp \
+  /usr/local/include/glm/ext/matrix_double3x2_precision.hpp \
+  /usr/local/include/glm/ext/matrix_double3x3.hpp \
+  /usr/local/include/glm/ext/matrix_double3x3_precision.hpp \
+  /usr/local/include/glm/ext/matrix_double3x4.hpp \
+  /usr/local/include/glm/ext/matrix_double3x4_precision.hpp \
+  /usr/local/include/glm/ext/matrix_double4x2.hpp \
+  /usr/local/include/glm/ext/matrix_double4x2_precision.hpp \
+  /usr/local/include/glm/ext/matrix_double4x3.hpp \
+  /usr/local/include/glm/ext/matrix_double4x3_precision.hpp \
+  /usr/local/include/glm/ext/matrix_double4x4.hpp \
+  /usr/local/include/glm/ext/matrix_double4x4_precision.hpp \
+  /usr/local/include/glm/ext/matrix_float2x3.hpp \
+  /usr/local/include/glm/ext/matrix_float2x3_precision.hpp \
+  /usr/local/include/glm/ext/matrix_float2x4.hpp \
+  /usr/local/include/glm/ext/matrix_float2x4_precision.hpp \
+  /usr/local/include/glm/ext/matrix_float3x2.hpp \
+  /usr/local/include/glm/ext/matrix_float3x2_precision.hpp \
+  /usr/local/include/glm/ext/matrix_float3x3.hpp \
+  /usr/local/include/glm/ext/matrix_float3x3_precision.hpp \
+  /usr/local/include/glm/ext/matrix_float3x4.hpp \
+  /usr/local/include/glm/ext/matrix_float3x4_precision.hpp \
+  /usr/local/include/glm/ext/matrix_float4x2.hpp \
+  /usr/local/include/glm/ext/matrix_float4x2_precision.hpp \
+  /usr/local/include/glm/ext/matrix_float4x3.hpp \
+  /usr/local/include/glm/ext/matrix_float4x3_precision.hpp \
+  /usr/local/include/glm/ext/matrix_float4x4.hpp \
+  /usr/local/include/glm/ext/matrix_float4x4_precision.hpp \
+  /usr/local/include/glm/geometric.hpp \
+  /usr/local/include/glm/detail/func_matrix.inl \
+  /usr/local/include/glm/detail/qualifier.hpp \
+  /usr/local/include/glm/detail/setup.hpp \
+  /usr/local/include/glm/mat2x2.hpp \
+  /usr/local/include/glm/mat2x3.hpp \
+  /usr/local/include/glm/mat2x4.hpp \
+  /usr/local/include/glm/mat3x2.hpp \
+  /usr/local/include/glm/mat3x3.hpp \
+  /usr/local/include/glm/mat3x4.hpp \
+  /usr/local/include/glm/mat4x2.hpp \
+  /usr/local/include/glm/mat4x3.hpp \
+  /usr/local/include/glm/mat4x4.hpp \
+  /usr/local/include/glm/matrix.hpp \
+  /usr/local/include/glm/vec2.hpp \
+  /usr/local/include/glm/vec3.hpp \
+  /usr/local/include/glm/vec4.hpp \
+  /usr/local/include/glm/detail/compute_vector_relational.hpp \
+  /usr/local/include/glm/detail/setup.hpp \
+  /usr/local/include/glm/detail/_vectorize.hpp \
+  /usr/local/include/glm/detail/compute_vector_decl.hpp \
+  /usr/local/include/glm/detail/compute_vector_relational.hpp \
+  /usr/local/include/glm/detail/qualifier.hpp \
+  /usr/local/include/glm/detail/setup.hpp \
+  /usr/local/include/glm/detail/type_mat2x2.hpp \
+  /usr/local/include/glm/detail/type_mat2x2.inl \
+  /usr/local/include/glm/detail/type_vec2.hpp \
+  /usr/local/include/glm/detail/type_vec2.inl \
+  /usr/local/include/glm/detail/type_vec3.hpp \
+  /usr/local/include/glm/detail/type_vec3.inl \
+  /usr/local/include/glm/detail/type_vec4.hpp \
+  /usr/local/include/glm/detail/type_vec4.inl \
+  /usr/local/include/glm/detail/setup.hpp \
+  /usr/local/include/glm/ext/scalar_int_sized.hpp \
+  /usr/local/include/glm/ext/scalar_uint_sized.hpp \
+  /usr/local/include/glm/ext/vector_int2.hpp \
+  /usr/local/include/glm/ext/vector_int3.hpp \
+  /usr/local/include/glm/ext/vector_int4.hpp \
+  /usr/local/include/glm/ext/vector_uint2.hpp \
+  /usr/local/include/glm/ext/vector_uint3.hpp \
+  /usr/local/include/glm/ext/vector_uint4.hpp \
+  /usr/local/include/glm/ext/matrix_double2x2.hpp \
+  /usr/local/include/glm/ext/matrix_double2x2_precision.hpp \
+  /usr/local/include/glm/ext/matrix_float2x2.hpp \
+  /usr/local/include/glm/ext/matrix_float2x2_precision.hpp \
+  /usr/local/include/glm/ext/vector_bool2.hpp \
+  /usr/local/include/glm/ext/vector_bool2_precision.hpp \
+  /usr/local/include/glm/ext/vector_bool3.hpp \
+  /usr/local/include/glm/ext/vector_bool3_precision.hpp \
+  /usr/local/include/glm/ext/vector_bool4.hpp \
+  /usr/local/include/glm/ext/vector_bool4_precision.hpp \
+  /usr/local/include/glm/ext/vector_double2.hpp \
+  /usr/local/include/glm/ext/vector_double2_precision.hpp \
+  /usr/local/include/glm/ext/vector_double3.hpp \
+  /usr/local/include/glm/ext/vector_double3_precision.hpp \
+  /usr/local/include/glm/ext/vector_double4.hpp \
+  /usr/local/include/glm/ext/vector_double4_precision.hpp \
+  /usr/local/include/glm/ext/vector_float2.hpp \
+  /usr/local/include/glm/ext/vector_float2_precision.hpp \
+  /usr/local/include/glm/ext/vector_float3.hpp \
+  /usr/local/include/glm/ext/vector_float3_precision.hpp \
+  /usr/local/include/glm/ext/vector_float4.hpp \
+  /usr/local/include/glm/ext/vector_float4_precision.hpp \
+  /usr/local/include/glm/ext/vector_int2.hpp \
+  /usr/local/include/glm/ext/vector_int2_sized.hpp \
+  /usr/local/include/glm/ext/vector_int3.hpp \
+  /usr/local/include/glm/ext/vector_int3_sized.hpp \
+  /usr/local/include/glm/ext/vector_int4.hpp \
+  /usr/local/include/glm/ext/vector_int4_sized.hpp \
+  /usr/local/include/glm/ext/vector_uint2.hpp \
+  /usr/local/include/glm/ext/vector_uint2_sized.hpp \
+  /usr/local/include/glm/ext/vector_uint3.hpp \
+  /usr/local/include/glm/ext/vector_uint3_sized.hpp \
+  /usr/local/include/glm/ext/vector_uint4.hpp \
+  /usr/local/include/glm/ext/vector_uint4_sized.hpp \
+  /usr/local/include/glm/common.hpp \
+  /usr/local/include/glm/common.hpp \
+  /usr/local/include/glm/simd/platform.h \
+  /usr/local/include/glm/detail/_fixes.hpp \
+  /usr/local/include/glm/detail/_vectorize.hpp \
+  /usr/local/include/glm/detail/func_integer.inl \
+  /usr/local/include/glm/detail/func_packing.inl \
+  /usr/local/include/glm/detail/func_trigonometric.inl \
+  /usr/local/include/glm/detail/qualifier.hpp \
+  /usr/local/include/glm/detail/setup.hpp \
+  /usr/local/include/glm/detail/type_half.hpp \
+  /usr/local/include/glm/detail/type_half.inl \
+  /usr/local/include/glm/exponential.hpp \
+  /usr/local/include/glm/fwd.hpp \
+  /usr/local/include/glm/geometric.hpp \
+  /usr/local/include/glm/glm.hpp \
+  /usr/local/include/glm/ext/scalar_constants.hpp \
+  /usr/local/include/glm/geometric.hpp \
+  /usr/local/include/glm/detail/setup.hpp \
+  /usr/local/include/glm/ext/scalar_constants.hpp \
+  /usr/local/include/glm/ext/scalar_constants.inl \
+  /usr/local/include/glm/gtc/constants.hpp \
+  /usr/local/include/glm/gtc/constants.inl \
+  /usr/local/include/glm/matrix.hpp \
+  /usr/local/include/glm/trigonometric.hpp \
+  /usr/local/include/glm/ext/matrix_clip_space.hpp \
+  /usr/local/include/glm/ext/matrix_clip_space.inl \
+  /usr/local/include/glm/ext/matrix_projection.hpp \
+  /usr/local/include/glm/ext/matrix_projection.inl \
+  /usr/local/include/glm/ext/matrix_transform.hpp \
+  /usr/local/include/glm/ext/matrix_transform.inl \
+  /usr/local/include/glm/geometric.hpp \
+  /usr/local/include/glm/common.hpp \
+  /usr/local/include/glm/detail/qualifier.hpp \
+  /usr/local/include/glm/detail/setup.hpp \
+  /usr/local/include/glm/detail/type_mat3x3.hpp \
+  /usr/local/include/glm/detail/type_mat4x4.hpp \
+  /usr/local/include/glm/detail/type_vec3.hpp \
+  /usr/local/include/glm/detail/type_vec4.hpp \
+  /usr/local/include/glm/exponential.hpp \
+  /usr/local/include/glm/common.hpp \
+  /usr/local/include/glm/detail/type_mat3x3.hpp \
+  /usr/local/include/glm/detail/type_mat4x4.hpp \
+  /usr/local/include/glm/detail/type_vec3.hpp \
+  /usr/local/include/glm/detail/type_vec4.hpp \
+  /usr/local/include/glm/exponential.hpp \
+  /usr/local/include/glm/vector_relational.hpp \
+  /usr/local/include/glm/ext/quaternion_common.hpp \
+  /usr/local/include/glm/ext/quaternion_geometric.hpp \
+  /usr/local/include/glm/ext/quaternion_relational.hpp \
+  /usr/local/include/glm/ext/quaternion_relational.inl \
+  /usr/local/include/glm/ext/vector_relational.hpp \
+  /usr/local/include/glm/gtc/constants.hpp \
+  /usr/local/include/glm/gtc/matrix_transform.hpp \
+  /usr/local/include/glm/trigonometric.hpp \
+  /usr/local/include/glm/detail/qualifier.hpp \
+  /usr/local/include/glm/detail/setup.hpp \
+  /usr/local/include/glm/detail/type_float.hpp \
+  /usr/local/include/glm/detail/type_quat.hpp \
+  /usr/local/include/glm/detail/type_quat.inl \
+  /usr/local/include/glm/detail/type_vec1.hpp \
+  /usr/local/include/glm/exponential.hpp \
+  /usr/local/include/glm/exponential.hpp \
+  /usr/local/include/glm/ext/vector_relational.hpp \
+  /usr/local/include/glm/geometric.hpp \
+  /usr/local/include/glm/ext/quaternion_geometric.hpp \
+  /usr/local/include/glm/ext/quaternion_geometric.inl \
+  /usr/local/include/glm/ext/scalar_constants.hpp \
+  /usr/local/include/glm/ext/scalar_int_sized.hpp \
+  /usr/local/include/glm/ext/scalar_uint_sized.hpp \
+  /usr/local/include/glm/ext/vector_int1.hpp \
+  /usr/local/include/glm/ext/vector_uint1.hpp \
+  /usr/local/include/glm/geometric.hpp \
+  /usr/local/include/glm/trigonometric.hpp \
+  /usr/local/include/glm/vector_relational.hpp \
+  /usr/local/include/glm/ext/quaternion_common.hpp \
+  /usr/local/include/glm/ext/quaternion_common.inl \
+  /usr/local/include/glm/ext/quaternion_double.hpp \
+  /usr/local/include/glm/ext/quaternion_double_precision.hpp \
+  /usr/local/include/glm/ext/quaternion_float.hpp \
+  /usr/local/include/glm/ext/quaternion_float_precision.hpp \
+  /usr/local/include/glm/ext/quaternion_geometric.hpp \
+  /usr/local/include/glm/ext/quaternion_relational.hpp \
+  /usr/local/include/glm/ext/quaternion_transform.hpp \
+  /usr/local/include/glm/ext/quaternion_transform.inl \
+  /usr/local/include/glm/ext/quaternion_trigonometric.hpp \
+  /usr/local/include/glm/ext/quaternion_trigonometric.inl \
+  /usr/local/include/glm/ext/scalar_constants.hpp \
+  /usr/local/include/glm/ext/vector_bool1.hpp \
+  /usr/local/include/glm/ext/vector_bool1_precision.hpp \
+  /usr/local/include/glm/ext/vector_double1.hpp \
+  /usr/local/include/glm/ext/vector_double1_precision.hpp \
+  /usr/local/include/glm/ext/vector_float1.hpp \
+  /usr/local/include/glm/ext/vector_float1_precision.hpp \
+  /usr/local/include/glm/ext/vector_int1.hpp \
+  /usr/local/include/glm/ext/vector_int1_sized.hpp \
+  /usr/local/include/glm/ext/vector_relational.hpp \
+  /usr/local/include/glm/ext/vector_relational.inl \
+  /usr/local/include/glm/ext/vector_uint1.hpp \
+  /usr/local/include/glm/ext/vector_uint1_sized.hpp \
+  /usr/local/include/glm/geometric.hpp \
+  /usr/local/include/glm/gtc/constants.hpp \
+  /usr/local/include/glm/gtc/matrix_transform.hpp \
+  /usr/local/include/glm/trigonometric.hpp \
+  /usr/local/include/glm/vector_relational.hpp \
+  /usr/local/include/glm/gtc/epsilon.hpp \
+  /usr/local/include/glm/gtc/epsilon.inl \
+  /usr/local/include/glm/gtc/quaternion.hpp \
+  /usr/local/include/glm/gtc/quaternion.inl \
+  /usr/local/include/glm/gtc/vec1.hpp \
+  /usr/local/include/glm/mat2x2.hpp \
+  /usr/local/include/glm/mat2x3.hpp \
+  /usr/local/include/glm/mat2x4.hpp \
+  /usr/local/include/glm/mat3x2.hpp \
+  /usr/local/include/glm/mat3x3.hpp \
+  /usr/local/include/glm/mat3x4.hpp \
+  /usr/local/include/glm/mat4x2.hpp \
+  /usr/local/include/glm/mat4x3.hpp \
+  /usr/local/include/glm/mat4x4.hpp \
+  /usr/local/include/glm/matrix.hpp \
+  /usr/local/include/glm/trigonometric.hpp \
+  /usr/local/include/glm/vec2.hpp \
+  /usr/local/include/glm/vec3.hpp \
+  /usr/local/include/glm/vec4.hpp \
+  /usr/local/include/glm/gtc/matrix_transform.hpp \
+  /usr/local/include/glm/gtc/matrix_transform.inl \
+  /usr/local/include/glm/gtc/type_ptr.hpp \
+  /usr/local/include/glm/gtc/type_ptr.inl \
+  /usr/local/include/glm/integer.hpp \
+  /usr/local/include/glm/mat2x2.hpp \
+  /usr/local/include/glm/mat2x3.hpp \
+  /usr/local/include/glm/mat2x4.hpp \
+  /usr/local/include/glm/mat3x2.hpp \
+  /usr/local/include/glm/mat3x3.hpp \
+  /usr/local/include/glm/mat3x4.hpp \
+  /usr/local/include/glm/mat4x2.hpp \
+  /usr/local/include/glm/mat4x3.hpp \
+  /usr/local/include/glm/mat4x4.hpp \
+  /usr/local/include/glm/matrix.hpp \
+  /usr/local/include/glm/packing.hpp \
+  /usr/local/include/glm/trigonometric.hpp \
+  /usr/local/include/glm/vec2.hpp \
+  /usr/local/include/glm/vec3.hpp \
+  /usr/local/include/glm/vec4.hpp \
+  /usr/local/include/glm/vector_relational.hpp
 
 CMakeFiles/pendulum.dir/src/glad.c.o: /Users/hvu/Personal_Projects/game/test/swinging_pendulum/src/glad.c \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h \
@@ -1097,6 +1406,7 @@ CMakeFiles/pendulum.dir/src/main.cpp.o: /Users/hvu/Personal_Projects/game/test/s
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/__wctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/__xlocale.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_abort.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_assert.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_bounds.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_ctermid.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_ctype.h \
@@ -1104,6 +1414,7 @@ CMakeFiles/pendulum.dir/src/main.cpp.o: /Users/hvu/Personal_Projects/game/test/s
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_locale_posix2008.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_mb_cur_max.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_printf.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_static_assert.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_stdlib.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_string.h \
@@ -1132,6 +1443,7 @@ CMakeFiles/pendulum.dir/src/main.cpp.o: /Users/hvu/Personal_Projects/game/test/s
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/arm/limits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/arm/signal.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/arm/types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/assert.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/adjacent_find.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/all_of.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/any_of.h \
@@ -1857,8 +2169,10 @@ CMakeFiles/pendulum.dir/src/main.cpp.o: /Users/hvu/Personal_Projects/game/test/s
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/atomic \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/bit \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/bitset \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cassert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cctype \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cerrno \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cfloat \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/climits \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/clocale \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cmath \
@@ -1878,6 +2192,7 @@ CMakeFiles/pendulum.dir/src/main.cpp.o: /Users/hvu/Personal_Projects/game/test/s
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/errno.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/exception \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/filesystem \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/float.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/format \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/fstream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/functional \
@@ -1922,6 +2237,7 @@ CMakeFiles/pendulum.dir/src/main.cpp.o: /Users/hvu/Personal_Projects/game/test/s
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/wctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/ctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/errno.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/float.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/_OSByteOrder.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/arm/_OSByteOrder.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/limits.h \
@@ -2065,6 +2381,7 @@ CMakeFiles/pendulum.dir/src/main.cpp.o: /Users/hvu/Personal_Projects/game/test/s
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_rsize_t.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_size_t.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_wchar_t.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/17/include/float.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/limits.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdarg.h \
@@ -2075,14 +2392,314 @@ CMakeFiles/pendulum.dir/src/main.cpp.o: /Users/hvu/Personal_Projects/game/test/s
   /Users/hvu/Personal_Projects/game/test/swinging_pendulum/includes/ball.hpp \
   /Users/hvu/Personal_Projects/game/test/swinging_pendulum/includes/constant.hpp \
   /Users/hvu/Personal_Projects/game/test/swinging_pendulum/includes/glad/glad.h \
-  /Users/hvu/Personal_Projects/game/test/swinging_pendulum/includes/shader.hpp
+  /Users/hvu/Personal_Projects/game/test/swinging_pendulum/includes/shader.hpp \
+  /usr/local/include/glm/common.hpp \
+  /usr/local/include/glm/common.hpp \
+  /usr/local/include/glm/vector_relational.hpp \
+  /usr/local/include/glm/detail/_vectorize.hpp \
+  /usr/local/include/glm/detail/func_exponential.inl \
+  /usr/local/include/glm/detail/func_vector_relational.inl \
+  /usr/local/include/glm/detail/qualifier.hpp \
+  /usr/local/include/glm/detail/setup.hpp \
+  /usr/local/include/glm/detail/type_vec1.hpp \
+  /usr/local/include/glm/detail/type_vec2.hpp \
+  /usr/local/include/glm/detail/type_vec3.hpp \
+  /usr/local/include/glm/detail/type_vec4.hpp \
+  /usr/local/include/glm/exponential.hpp \
+  /usr/local/include/glm/vector_relational.hpp \
+  /usr/local/include/glm/detail/compute_vector_relational.hpp \
+  /usr/local/include/glm/detail/_fixes.hpp \
+  /usr/local/include/glm/detail/_vectorize.hpp \
+  /usr/local/include/glm/detail/compute_common.hpp \
+  /usr/local/include/glm/detail/func_common.inl \
+  /usr/local/include/glm/detail/func_geometric.inl \
+  /usr/local/include/glm/detail/qualifier.hpp \
+  /usr/local/include/glm/detail/setup.hpp \
+  /usr/local/include/glm/detail/type_vec1.hpp \
+  /usr/local/include/glm/detail/type_vec1.inl \
+  /usr/local/include/glm/detail/type_vec2.hpp \
+  /usr/local/include/glm/detail/type_vec3.hpp \
+  /usr/local/include/glm/detail/type_vec4.hpp \
+  /usr/local/include/glm/geometric.hpp \
+  /usr/local/include/glm/matrix.hpp \
+  /usr/local/include/glm/detail/type_mat2x2.hpp \
+  /usr/local/include/glm/detail/type_mat2x3.hpp \
+  /usr/local/include/glm/detail/type_mat2x3.inl \
+  /usr/local/include/glm/detail/type_mat2x4.hpp \
+  /usr/local/include/glm/detail/type_mat2x4.inl \
+  /usr/local/include/glm/detail/type_mat3x2.hpp \
+  /usr/local/include/glm/detail/type_mat3x2.inl \
+  /usr/local/include/glm/detail/type_mat3x3.hpp \
+  /usr/local/include/glm/detail/type_mat3x3.inl \
+  /usr/local/include/glm/detail/type_mat3x4.hpp \
+  /usr/local/include/glm/detail/type_mat3x4.inl \
+  /usr/local/include/glm/detail/type_mat4x2.hpp \
+  /usr/local/include/glm/detail/type_mat4x2.inl \
+  /usr/local/include/glm/detail/type_mat4x3.hpp \
+  /usr/local/include/glm/detail/type_mat4x3.inl \
+  /usr/local/include/glm/detail/type_mat4x4.hpp \
+  /usr/local/include/glm/detail/type_mat4x4.inl \
+  /usr/local/include/glm/detail/type_vec2.hpp \
+  /usr/local/include/glm/detail/type_vec3.hpp \
+  /usr/local/include/glm/detail/type_vec4.hpp \
+  /usr/local/include/glm/ext/matrix_double2x3.hpp \
+  /usr/local/include/glm/ext/matrix_double2x3_precision.hpp \
+  /usr/local/include/glm/ext/matrix_double2x4.hpp \
+  /usr/local/include/glm/ext/matrix_double2x4_precision.hpp \
+  /usr/local/include/glm/ext/matrix_double3x2.hpp \
+  /usr/local/include/glm/ext/matrix_double3x2_precision.hpp \
+  /usr/local/include/glm/ext/matrix_double3x3.hpp \
+  /usr/local/include/glm/ext/matrix_double3x3_precision.hpp \
+  /usr/local/include/glm/ext/matrix_double3x4.hpp \
+  /usr/local/include/glm/ext/matrix_double3x4_precision.hpp \
+  /usr/local/include/glm/ext/matrix_double4x2.hpp \
+  /usr/local/include/glm/ext/matrix_double4x2_precision.hpp \
+  /usr/local/include/glm/ext/matrix_double4x3.hpp \
+  /usr/local/include/glm/ext/matrix_double4x3_precision.hpp \
+  /usr/local/include/glm/ext/matrix_double4x4.hpp \
+  /usr/local/include/glm/ext/matrix_double4x4_precision.hpp \
+  /usr/local/include/glm/ext/matrix_float2x3.hpp \
+  /usr/local/include/glm/ext/matrix_float2x3_precision.hpp \
+  /usr/local/include/glm/ext/matrix_float2x4.hpp \
+  /usr/local/include/glm/ext/matrix_float2x4_precision.hpp \
+  /usr/local/include/glm/ext/matrix_float3x2.hpp \
+  /usr/local/include/glm/ext/matrix_float3x2_precision.hpp \
+  /usr/local/include/glm/ext/matrix_float3x3.hpp \
+  /usr/local/include/glm/ext/matrix_float3x3_precision.hpp \
+  /usr/local/include/glm/ext/matrix_float3x4.hpp \
+  /usr/local/include/glm/ext/matrix_float3x4_precision.hpp \
+  /usr/local/include/glm/ext/matrix_float4x2.hpp \
+  /usr/local/include/glm/ext/matrix_float4x2_precision.hpp \
+  /usr/local/include/glm/ext/matrix_float4x3.hpp \
+  /usr/local/include/glm/ext/matrix_float4x3_precision.hpp \
+  /usr/local/include/glm/ext/matrix_float4x4.hpp \
+  /usr/local/include/glm/ext/matrix_float4x4_precision.hpp \
+  /usr/local/include/glm/geometric.hpp \
+  /usr/local/include/glm/detail/func_matrix.inl \
+  /usr/local/include/glm/detail/qualifier.hpp \
+  /usr/local/include/glm/detail/setup.hpp \
+  /usr/local/include/glm/mat2x2.hpp \
+  /usr/local/include/glm/mat2x3.hpp \
+  /usr/local/include/glm/mat2x4.hpp \
+  /usr/local/include/glm/mat3x2.hpp \
+  /usr/local/include/glm/mat3x3.hpp \
+  /usr/local/include/glm/mat3x4.hpp \
+  /usr/local/include/glm/mat4x2.hpp \
+  /usr/local/include/glm/mat4x3.hpp \
+  /usr/local/include/glm/mat4x4.hpp \
+  /usr/local/include/glm/matrix.hpp \
+  /usr/local/include/glm/vec2.hpp \
+  /usr/local/include/glm/vec3.hpp \
+  /usr/local/include/glm/vec4.hpp \
+  /usr/local/include/glm/detail/compute_vector_relational.hpp \
+  /usr/local/include/glm/detail/setup.hpp \
+  /usr/local/include/glm/detail/_vectorize.hpp \
+  /usr/local/include/glm/detail/compute_vector_decl.hpp \
+  /usr/local/include/glm/detail/compute_vector_relational.hpp \
+  /usr/local/include/glm/detail/qualifier.hpp \
+  /usr/local/include/glm/detail/setup.hpp \
+  /usr/local/include/glm/detail/type_mat2x2.hpp \
+  /usr/local/include/glm/detail/type_mat2x2.inl \
+  /usr/local/include/glm/detail/type_vec2.hpp \
+  /usr/local/include/glm/detail/type_vec2.inl \
+  /usr/local/include/glm/detail/type_vec3.hpp \
+  /usr/local/include/glm/detail/type_vec3.inl \
+  /usr/local/include/glm/detail/type_vec4.hpp \
+  /usr/local/include/glm/detail/type_vec4.inl \
+  /usr/local/include/glm/detail/setup.hpp \
+  /usr/local/include/glm/ext/scalar_int_sized.hpp \
+  /usr/local/include/glm/ext/scalar_uint_sized.hpp \
+  /usr/local/include/glm/ext/vector_int2.hpp \
+  /usr/local/include/glm/ext/vector_int3.hpp \
+  /usr/local/include/glm/ext/vector_int4.hpp \
+  /usr/local/include/glm/ext/vector_uint2.hpp \
+  /usr/local/include/glm/ext/vector_uint3.hpp \
+  /usr/local/include/glm/ext/vector_uint4.hpp \
+  /usr/local/include/glm/ext/matrix_double2x2.hpp \
+  /usr/local/include/glm/ext/matrix_double2x2_precision.hpp \
+  /usr/local/include/glm/ext/matrix_float2x2.hpp \
+  /usr/local/include/glm/ext/matrix_float2x2_precision.hpp \
+  /usr/local/include/glm/ext/vector_bool2.hpp \
+  /usr/local/include/glm/ext/vector_bool2_precision.hpp \
+  /usr/local/include/glm/ext/vector_bool3.hpp \
+  /usr/local/include/glm/ext/vector_bool3_precision.hpp \
+  /usr/local/include/glm/ext/vector_bool4.hpp \
+  /usr/local/include/glm/ext/vector_bool4_precision.hpp \
+  /usr/local/include/glm/ext/vector_double2.hpp \
+  /usr/local/include/glm/ext/vector_double2_precision.hpp \
+  /usr/local/include/glm/ext/vector_double3.hpp \
+  /usr/local/include/glm/ext/vector_double3_precision.hpp \
+  /usr/local/include/glm/ext/vector_double4.hpp \
+  /usr/local/include/glm/ext/vector_double4_precision.hpp \
+  /usr/local/include/glm/ext/vector_float2.hpp \
+  /usr/local/include/glm/ext/vector_float2_precision.hpp \
+  /usr/local/include/glm/ext/vector_float3.hpp \
+  /usr/local/include/glm/ext/vector_float3_precision.hpp \
+  /usr/local/include/glm/ext/vector_float4.hpp \
+  /usr/local/include/glm/ext/vector_float4_precision.hpp \
+  /usr/local/include/glm/ext/vector_int2.hpp \
+  /usr/local/include/glm/ext/vector_int2_sized.hpp \
+  /usr/local/include/glm/ext/vector_int3.hpp \
+  /usr/local/include/glm/ext/vector_int3_sized.hpp \
+  /usr/local/include/glm/ext/vector_int4.hpp \
+  /usr/local/include/glm/ext/vector_int4_sized.hpp \
+  /usr/local/include/glm/ext/vector_uint2.hpp \
+  /usr/local/include/glm/ext/vector_uint2_sized.hpp \
+  /usr/local/include/glm/ext/vector_uint3.hpp \
+  /usr/local/include/glm/ext/vector_uint3_sized.hpp \
+  /usr/local/include/glm/ext/vector_uint4.hpp \
+  /usr/local/include/glm/ext/vector_uint4_sized.hpp \
+  /usr/local/include/glm/common.hpp \
+  /usr/local/include/glm/common.hpp \
+  /usr/local/include/glm/simd/platform.h \
+  /usr/local/include/glm/detail/_fixes.hpp \
+  /usr/local/include/glm/detail/_vectorize.hpp \
+  /usr/local/include/glm/detail/func_integer.inl \
+  /usr/local/include/glm/detail/func_packing.inl \
+  /usr/local/include/glm/detail/func_trigonometric.inl \
+  /usr/local/include/glm/detail/qualifier.hpp \
+  /usr/local/include/glm/detail/setup.hpp \
+  /usr/local/include/glm/detail/type_half.hpp \
+  /usr/local/include/glm/detail/type_half.inl \
+  /usr/local/include/glm/exponential.hpp \
+  /usr/local/include/glm/ext/matrix_clip_space.hpp \
+  /usr/local/include/glm/ext/matrix_transform.hpp \
+  /usr/local/include/glm/fwd.hpp \
+  /usr/local/include/glm/geometric.hpp \
+  /usr/local/include/glm/glm.hpp \
+  /usr/local/include/glm/ext/scalar_constants.hpp \
+  /usr/local/include/glm/geometric.hpp \
+  /usr/local/include/glm/detail/setup.hpp \
+  /usr/local/include/glm/ext/scalar_constants.hpp \
+  /usr/local/include/glm/ext/scalar_constants.inl \
+  /usr/local/include/glm/gtc/constants.hpp \
+  /usr/local/include/glm/gtc/constants.inl \
+  /usr/local/include/glm/matrix.hpp \
+  /usr/local/include/glm/trigonometric.hpp \
+  /usr/local/include/glm/ext/matrix_clip_space.hpp \
+  /usr/local/include/glm/ext/matrix_clip_space.inl \
+  /usr/local/include/glm/ext/matrix_projection.hpp \
+  /usr/local/include/glm/ext/matrix_projection.inl \
+  /usr/local/include/glm/ext/matrix_transform.hpp \
+  /usr/local/include/glm/ext/matrix_transform.inl \
+  /usr/local/include/glm/geometric.hpp \
+  /usr/local/include/glm/common.hpp \
+  /usr/local/include/glm/detail/qualifier.hpp \
+  /usr/local/include/glm/detail/setup.hpp \
+  /usr/local/include/glm/detail/type_mat3x3.hpp \
+  /usr/local/include/glm/detail/type_mat4x4.hpp \
+  /usr/local/include/glm/detail/type_vec3.hpp \
+  /usr/local/include/glm/detail/type_vec4.hpp \
+  /usr/local/include/glm/exponential.hpp \
+  /usr/local/include/glm/common.hpp \
+  /usr/local/include/glm/detail/type_mat3x3.hpp \
+  /usr/local/include/glm/detail/type_mat4x4.hpp \
+  /usr/local/include/glm/detail/type_vec3.hpp \
+  /usr/local/include/glm/detail/type_vec4.hpp \
+  /usr/local/include/glm/exponential.hpp \
+  /usr/local/include/glm/vector_relational.hpp \
+  /usr/local/include/glm/ext/quaternion_common.hpp \
+  /usr/local/include/glm/ext/quaternion_geometric.hpp \
+  /usr/local/include/glm/ext/quaternion_relational.hpp \
+  /usr/local/include/glm/ext/quaternion_relational.inl \
+  /usr/local/include/glm/ext/vector_relational.hpp \
+  /usr/local/include/glm/gtc/constants.hpp \
+  /usr/local/include/glm/gtc/matrix_transform.hpp \
+  /usr/local/include/glm/trigonometric.hpp \
+  /usr/local/include/glm/detail/qualifier.hpp \
+  /usr/local/include/glm/detail/setup.hpp \
+  /usr/local/include/glm/detail/type_float.hpp \
+  /usr/local/include/glm/detail/type_quat.hpp \
+  /usr/local/include/glm/detail/type_quat.inl \
+  /usr/local/include/glm/detail/type_vec1.hpp \
+  /usr/local/include/glm/exponential.hpp \
+  /usr/local/include/glm/exponential.hpp \
+  /usr/local/include/glm/ext/vector_relational.hpp \
+  /usr/local/include/glm/geometric.hpp \
+  /usr/local/include/glm/ext/quaternion_geometric.hpp \
+  /usr/local/include/glm/ext/quaternion_geometric.inl \
+  /usr/local/include/glm/ext/scalar_constants.hpp \
+  /usr/local/include/glm/ext/scalar_int_sized.hpp \
+  /usr/local/include/glm/ext/scalar_uint_sized.hpp \
+  /usr/local/include/glm/ext/vector_int1.hpp \
+  /usr/local/include/glm/ext/vector_uint1.hpp \
+  /usr/local/include/glm/geometric.hpp \
+  /usr/local/include/glm/trigonometric.hpp \
+  /usr/local/include/glm/vector_relational.hpp \
+  /usr/local/include/glm/ext/quaternion_common.hpp \
+  /usr/local/include/glm/ext/quaternion_common.inl \
+  /usr/local/include/glm/ext/quaternion_double.hpp \
+  /usr/local/include/glm/ext/quaternion_double_precision.hpp \
+  /usr/local/include/glm/ext/quaternion_float.hpp \
+  /usr/local/include/glm/ext/quaternion_float_precision.hpp \
+  /usr/local/include/glm/ext/quaternion_geometric.hpp \
+  /usr/local/include/glm/ext/quaternion_relational.hpp \
+  /usr/local/include/glm/ext/quaternion_transform.hpp \
+  /usr/local/include/glm/ext/quaternion_transform.inl \
+  /usr/local/include/glm/ext/quaternion_trigonometric.hpp \
+  /usr/local/include/glm/ext/quaternion_trigonometric.inl \
+  /usr/local/include/glm/ext/scalar_constants.hpp \
+  /usr/local/include/glm/ext/vector_bool1.hpp \
+  /usr/local/include/glm/ext/vector_bool1_precision.hpp \
+  /usr/local/include/glm/ext/vector_double1.hpp \
+  /usr/local/include/glm/ext/vector_double1_precision.hpp \
+  /usr/local/include/glm/ext/vector_float1.hpp \
+  /usr/local/include/glm/ext/vector_float1_precision.hpp \
+  /usr/local/include/glm/ext/vector_int1.hpp \
+  /usr/local/include/glm/ext/vector_int1_sized.hpp \
+  /usr/local/include/glm/ext/vector_relational.hpp \
+  /usr/local/include/glm/ext/vector_relational.inl \
+  /usr/local/include/glm/ext/vector_uint1.hpp \
+  /usr/local/include/glm/ext/vector_uint1_sized.hpp \
+  /usr/local/include/glm/geometric.hpp \
+  /usr/local/include/glm/gtc/constants.hpp \
+  /usr/local/include/glm/gtc/matrix_transform.hpp \
+  /usr/local/include/glm/trigonometric.hpp \
+  /usr/local/include/glm/vector_relational.hpp \
+  /usr/local/include/glm/gtc/epsilon.hpp \
+  /usr/local/include/glm/gtc/epsilon.inl \
+  /usr/local/include/glm/gtc/quaternion.hpp \
+  /usr/local/include/glm/gtc/quaternion.inl \
+  /usr/local/include/glm/gtc/vec1.hpp \
+  /usr/local/include/glm/mat2x2.hpp \
+  /usr/local/include/glm/mat2x3.hpp \
+  /usr/local/include/glm/mat2x4.hpp \
+  /usr/local/include/glm/mat3x2.hpp \
+  /usr/local/include/glm/mat3x3.hpp \
+  /usr/local/include/glm/mat3x4.hpp \
+  /usr/local/include/glm/mat4x2.hpp \
+  /usr/local/include/glm/mat4x3.hpp \
+  /usr/local/include/glm/mat4x4.hpp \
+  /usr/local/include/glm/matrix.hpp \
+  /usr/local/include/glm/trigonometric.hpp \
+  /usr/local/include/glm/vec2.hpp \
+  /usr/local/include/glm/vec3.hpp \
+  /usr/local/include/glm/vec4.hpp \
+  /usr/local/include/glm/gtc/matrix_transform.hpp \
+  /usr/local/include/glm/gtc/matrix_transform.inl \
+  /usr/local/include/glm/gtc/type_ptr.hpp \
+  /usr/local/include/glm/gtc/type_ptr.inl \
+  /usr/local/include/glm/integer.hpp \
+  /usr/local/include/glm/mat2x2.hpp \
+  /usr/local/include/glm/mat2x3.hpp \
+  /usr/local/include/glm/mat2x4.hpp \
+  /usr/local/include/glm/mat3x2.hpp \
+  /usr/local/include/glm/mat3x3.hpp \
+  /usr/local/include/glm/mat3x4.hpp \
+  /usr/local/include/glm/mat4x2.hpp \
+  /usr/local/include/glm/mat4x3.hpp \
+  /usr/local/include/glm/mat4x4.hpp \
+  /usr/local/include/glm/matrix.hpp \
+  /usr/local/include/glm/packing.hpp \
+  /usr/local/include/glm/trigonometric.hpp \
+  /usr/local/include/glm/vec2.hpp \
+  /usr/local/include/glm/vec3.hpp \
+  /usr/local/include/glm/vec4.hpp \
+  /usr/local/include/glm/vector_relational.hpp
 
 CMakeFiles/pendulum.dir/src/rod.cpp.o: /Users/hvu/Personal_Projects/game/test/swinging_pendulum/src/rod.cpp
 
 CMakeFiles/pendulum.dir/src/shader.cpp.o: /Users/hvu/Personal_Projects/game/test/swinging_pendulum/src/shader.cpp \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework/Headers/OpenGLAvailability.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework/Headers/gl.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework/Headers/gltypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternalLegacy.h \
@@ -2091,6 +2708,7 @@ CMakeFiles/pendulum.dir/src/shader.cpp.o: /Users/hvu/Personal_Projects/game/test
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/__wctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/__xlocale.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_abort.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_assert.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_bounds.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_ctermid.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_ctype.h \
@@ -2098,6 +2716,7 @@ CMakeFiles/pendulum.dir/src/shader.cpp.o: /Users/hvu/Personal_Projects/game/test
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_locale_posix2008.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_mb_cur_max.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_printf.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_static_assert.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_stdlib.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_string.h \
@@ -2126,6 +2745,7 @@ CMakeFiles/pendulum.dir/src/shader.cpp.o: /Users/hvu/Personal_Projects/game/test
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/arm/limits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/arm/signal.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/arm/types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/assert.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/adjacent_find.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/all_of.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/any_of.h \
@@ -2851,6 +3471,7 @@ CMakeFiles/pendulum.dir/src/shader.cpp.o: /Users/hvu/Personal_Projects/game/test
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/atomic \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/bit \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/bitset \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cassert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cctype \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cerrno \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/climits \
@@ -2934,7 +3555,6 @@ CMakeFiles/pendulum.dir/src/shader.cpp.o: /Users/hvu/Personal_Projects/game/test
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/malloc/_ptrcheck.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/math.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/nl_types.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/os/availability.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/pthread.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/pthread/pthread_impl.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/pthread/qos.h \
@@ -3068,24 +3688,476 @@ CMakeFiles/pendulum.dir/src/shader.cpp.o: /Users/hvu/Personal_Projects/game/test
   /Users/hvu/Personal_Projects/game/test/swinging_pendulum/includes/GLFW/glfw3.h \
   /Users/hvu/Personal_Projects/game/test/swinging_pendulum/includes/KHR/khrplatform.h \
   /Users/hvu/Personal_Projects/game/test/swinging_pendulum/includes/glad/glad.h \
-  /Users/hvu/Personal_Projects/game/test/swinging_pendulum/includes/shader.hpp
+  /Users/hvu/Personal_Projects/game/test/swinging_pendulum/includes/shader.hpp \
+  /usr/local/include/glm/common.hpp \
+  /usr/local/include/glm/detail/qualifier.hpp \
+  /usr/local/include/glm/detail/setup.hpp \
+  /usr/local/include/glm/detail/type_mat3x3.hpp \
+  /usr/local/include/glm/detail/type_mat4x4.hpp \
+  /usr/local/include/glm/detail/type_vec3.hpp \
+  /usr/local/include/glm/detail/type_vec4.hpp \
+  /usr/local/include/glm/exponential.hpp \
+  /usr/local/include/glm/common.hpp \
+  /usr/local/include/glm/detail/type_mat3x3.hpp \
+  /usr/local/include/glm/detail/type_mat4x4.hpp \
+  /usr/local/include/glm/detail/type_vec3.hpp \
+  /usr/local/include/glm/detail/type_vec4.hpp \
+  /usr/local/include/glm/exponential.hpp \
+  /usr/local/include/glm/vector_relational.hpp \
+  /usr/local/include/glm/ext/quaternion_common.hpp \
+  /usr/local/include/glm/ext/quaternion_geometric.hpp \
+  /usr/local/include/glm/ext/quaternion_relational.hpp \
+  /usr/local/include/glm/ext/quaternion_relational.inl \
+  /usr/local/include/glm/ext/vector_relational.hpp \
+  /usr/local/include/glm/gtc/constants.hpp \
+  /usr/local/include/glm/gtc/matrix_transform.hpp \
+  /usr/local/include/glm/trigonometric.hpp \
+  /usr/local/include/glm/detail/qualifier.hpp \
+  /usr/local/include/glm/detail/setup.hpp \
+  /usr/local/include/glm/detail/type_float.hpp \
+  /usr/local/include/glm/detail/type_quat.hpp \
+  /usr/local/include/glm/detail/type_quat.inl \
+  /usr/local/include/glm/detail/type_vec1.hpp \
+  /usr/local/include/glm/exponential.hpp \
+  /usr/local/include/glm/exponential.hpp \
+  /usr/local/include/glm/ext/vector_relational.hpp \
+  /usr/local/include/glm/geometric.hpp \
+  /usr/local/include/glm/ext/quaternion_geometric.hpp \
+  /usr/local/include/glm/ext/quaternion_geometric.inl \
+  /usr/local/include/glm/ext/scalar_constants.hpp \
+  /usr/local/include/glm/ext/scalar_int_sized.hpp \
+  /usr/local/include/glm/ext/scalar_uint_sized.hpp \
+  /usr/local/include/glm/ext/vector_int1.hpp \
+  /usr/local/include/glm/ext/vector_uint1.hpp \
+  /usr/local/include/glm/geometric.hpp \
+  /usr/local/include/glm/trigonometric.hpp \
+  /usr/local/include/glm/vector_relational.hpp \
+  /usr/local/include/glm/ext/quaternion_common.hpp \
+  /usr/local/include/glm/ext/quaternion_common.inl \
+  /usr/local/include/glm/ext/quaternion_double.hpp \
+  /usr/local/include/glm/ext/quaternion_double_precision.hpp \
+  /usr/local/include/glm/ext/quaternion_float.hpp \
+  /usr/local/include/glm/ext/quaternion_float_precision.hpp \
+  /usr/local/include/glm/ext/quaternion_geometric.hpp \
+  /usr/local/include/glm/ext/quaternion_relational.hpp \
+  /usr/local/include/glm/ext/quaternion_transform.hpp \
+  /usr/local/include/glm/ext/quaternion_transform.inl \
+  /usr/local/include/glm/ext/quaternion_trigonometric.hpp \
+  /usr/local/include/glm/ext/quaternion_trigonometric.inl \
+  /usr/local/include/glm/ext/scalar_constants.hpp \
+  /usr/local/include/glm/ext/vector_bool1.hpp \
+  /usr/local/include/glm/ext/vector_bool1_precision.hpp \
+  /usr/local/include/glm/ext/vector_double1.hpp \
+  /usr/local/include/glm/ext/vector_double1_precision.hpp \
+  /usr/local/include/glm/ext/vector_float1.hpp \
+  /usr/local/include/glm/ext/vector_float1_precision.hpp \
+  /usr/local/include/glm/ext/vector_int1.hpp \
+  /usr/local/include/glm/ext/vector_int1_sized.hpp \
+  /usr/local/include/glm/ext/vector_relational.hpp \
+  /usr/local/include/glm/ext/vector_relational.inl \
+  /usr/local/include/glm/ext/vector_uint1.hpp \
+  /usr/local/include/glm/ext/vector_uint1_sized.hpp \
+  /usr/local/include/glm/geometric.hpp \
+  /usr/local/include/glm/common.hpp \
+  /usr/local/include/glm/detail/func_vector_relational.inl \
+  /usr/local/include/glm/detail/qualifier.hpp \
+  /usr/local/include/glm/detail/setup.hpp \
+  /usr/local/include/glm/vector_relational.hpp \
+  /usr/local/include/glm/detail/compute_vector_relational.hpp \
+  /usr/local/include/glm/detail/_fixes.hpp \
+  /usr/local/include/glm/detail/_vectorize.hpp \
+  /usr/local/include/glm/detail/compute_common.hpp \
+  /usr/local/include/glm/detail/func_common.inl \
+  /usr/local/include/glm/detail/qualifier.hpp \
+  /usr/local/include/glm/detail/setup.hpp \
+  /usr/local/include/glm/detail/type_vec1.hpp \
+  /usr/local/include/glm/detail/type_vec1.inl \
+  /usr/local/include/glm/detail/type_vec2.hpp \
+  /usr/local/include/glm/detail/type_vec3.hpp \
+  /usr/local/include/glm/detail/type_vec4.hpp \
+  /usr/local/include/glm/matrix.hpp \
+  /usr/local/include/glm/detail/compute_vector_relational.hpp \
+  /usr/local/include/glm/detail/compute_vector_decl.hpp \
+  /usr/local/include/glm/detail/compute_vector_relational.hpp \
+  /usr/local/include/glm/detail/qualifier.hpp \
+  /usr/local/include/glm/detail/setup.hpp \
+  /usr/local/include/glm/detail/type_mat2x2.hpp \
+  /usr/local/include/glm/detail/type_mat2x2.inl \
+  /usr/local/include/glm/detail/type_mat2x3.hpp \
+  /usr/local/include/glm/detail/type_mat2x3.inl \
+  /usr/local/include/glm/detail/type_mat2x4.hpp \
+  /usr/local/include/glm/detail/type_mat2x4.inl \
+  /usr/local/include/glm/detail/type_mat3x2.hpp \
+  /usr/local/include/glm/detail/type_mat3x2.inl \
+  /usr/local/include/glm/detail/type_mat3x3.hpp \
+  /usr/local/include/glm/detail/type_mat3x3.inl \
+  /usr/local/include/glm/detail/type_mat3x4.hpp \
+  /usr/local/include/glm/detail/type_mat3x4.inl \
+  /usr/local/include/glm/detail/type_mat4x2.hpp \
+  /usr/local/include/glm/detail/type_mat4x2.inl \
+  /usr/local/include/glm/detail/type_mat4x3.hpp \
+  /usr/local/include/glm/detail/type_mat4x3.inl \
+  /usr/local/include/glm/detail/type_vec2.hpp \
+  /usr/local/include/glm/detail/type_vec2.inl \
+  /usr/local/include/glm/detail/type_vec3.hpp \
+  /usr/local/include/glm/detail/type_vec3.inl \
+  /usr/local/include/glm/detail/type_vec4.hpp \
+  /usr/local/include/glm/detail/setup.hpp \
+  /usr/local/include/glm/ext/scalar_int_sized.hpp \
+  /usr/local/include/glm/ext/scalar_uint_sized.hpp \
+  /usr/local/include/glm/ext/vector_int2.hpp \
+  /usr/local/include/glm/ext/vector_int3.hpp \
+  /usr/local/include/glm/ext/vector_int4.hpp \
+  /usr/local/include/glm/ext/vector_uint2.hpp \
+  /usr/local/include/glm/ext/vector_uint3.hpp \
+  /usr/local/include/glm/ext/vector_uint4.hpp \
+  /usr/local/include/glm/ext/matrix_double2x2.hpp \
+  /usr/local/include/glm/ext/matrix_double2x2_precision.hpp \
+  /usr/local/include/glm/ext/matrix_double2x3.hpp \
+  /usr/local/include/glm/ext/matrix_double2x3_precision.hpp \
+  /usr/local/include/glm/ext/matrix_double2x4.hpp \
+  /usr/local/include/glm/ext/matrix_double2x4_precision.hpp \
+  /usr/local/include/glm/ext/matrix_double3x2.hpp \
+  /usr/local/include/glm/ext/matrix_double3x2_precision.hpp \
+  /usr/local/include/glm/ext/matrix_double3x3.hpp \
+  /usr/local/include/glm/ext/matrix_double3x3_precision.hpp \
+  /usr/local/include/glm/ext/matrix_double3x4.hpp \
+  /usr/local/include/glm/ext/matrix_double3x4_precision.hpp \
+  /usr/local/include/glm/ext/matrix_double4x2.hpp \
+  /usr/local/include/glm/ext/matrix_double4x2_precision.hpp \
+  /usr/local/include/glm/ext/matrix_double4x3.hpp \
+  /usr/local/include/glm/ext/matrix_double4x3_precision.hpp \
+  /usr/local/include/glm/ext/matrix_float2x2.hpp \
+  /usr/local/include/glm/ext/matrix_float2x2_precision.hpp \
+  /usr/local/include/glm/ext/matrix_float2x3.hpp \
+  /usr/local/include/glm/ext/matrix_float2x3_precision.hpp \
+  /usr/local/include/glm/ext/matrix_float2x4.hpp \
+  /usr/local/include/glm/ext/matrix_float2x4_precision.hpp \
+  /usr/local/include/glm/ext/matrix_float3x2.hpp \
+  /usr/local/include/glm/ext/matrix_float3x2_precision.hpp \
+  /usr/local/include/glm/ext/matrix_float3x3.hpp \
+  /usr/local/include/glm/ext/matrix_float3x3_precision.hpp \
+  /usr/local/include/glm/ext/matrix_float3x4.hpp \
+  /usr/local/include/glm/ext/matrix_float3x4_precision.hpp \
+  /usr/local/include/glm/ext/matrix_float4x2.hpp \
+  /usr/local/include/glm/ext/matrix_float4x2_precision.hpp \
+  /usr/local/include/glm/ext/matrix_float4x3.hpp \
+  /usr/local/include/glm/ext/matrix_float4x3_precision.hpp \
+  /usr/local/include/glm/ext/vector_bool2.hpp \
+  /usr/local/include/glm/ext/vector_bool2_precision.hpp \
+  /usr/local/include/glm/ext/vector_bool3.hpp \
+  /usr/local/include/glm/ext/vector_bool3_precision.hpp \
+  /usr/local/include/glm/ext/vector_bool4.hpp \
+  /usr/local/include/glm/ext/vector_bool4_precision.hpp \
+  /usr/local/include/glm/ext/vector_double2.hpp \
+  /usr/local/include/glm/ext/vector_double2_precision.hpp \
+  /usr/local/include/glm/ext/vector_double3.hpp \
+  /usr/local/include/glm/ext/vector_double3_precision.hpp \
+  /usr/local/include/glm/ext/vector_double4.hpp \
+  /usr/local/include/glm/ext/vector_double4_precision.hpp \
+  /usr/local/include/glm/ext/vector_float2.hpp \
+  /usr/local/include/glm/ext/vector_float2_precision.hpp \
+  /usr/local/include/glm/ext/vector_float3.hpp \
+  /usr/local/include/glm/ext/vector_float3_precision.hpp \
+  /usr/local/include/glm/ext/vector_float4.hpp \
+  /usr/local/include/glm/ext/vector_float4_precision.hpp \
+  /usr/local/include/glm/ext/vector_int2.hpp \
+  /usr/local/include/glm/ext/vector_int2_sized.hpp \
+  /usr/local/include/glm/ext/vector_int3.hpp \
+  /usr/local/include/glm/ext/vector_int3_sized.hpp \
+  /usr/local/include/glm/ext/vector_int4.hpp \
+  /usr/local/include/glm/ext/vector_int4_sized.hpp \
+  /usr/local/include/glm/ext/vector_uint2.hpp \
+  /usr/local/include/glm/ext/vector_uint2_sized.hpp \
+  /usr/local/include/glm/ext/vector_uint3.hpp \
+  /usr/local/include/glm/ext/vector_uint3_sized.hpp \
+  /usr/local/include/glm/ext/vector_uint4.hpp \
+  /usr/local/include/glm/ext/vector_uint4_sized.hpp \
+  /usr/local/include/glm/common.hpp \
+  /usr/local/include/glm/vector_relational.hpp \
+  /usr/local/include/glm/detail/_vectorize.hpp \
+  /usr/local/include/glm/detail/func_exponential.inl \
+  /usr/local/include/glm/detail/type_vec1.hpp \
+  /usr/local/include/glm/detail/type_vec2.hpp \
+  /usr/local/include/glm/detail/type_vec3.hpp \
+  /usr/local/include/glm/detail/type_vec4.hpp \
+  /usr/local/include/glm/exponential.hpp \
+  /usr/local/include/glm/detail/func_geometric.inl \
+  /usr/local/include/glm/detail/type_vec3.hpp \
+  /usr/local/include/glm/geometric.hpp \
+  /usr/local/include/glm/detail/func_matrix.inl \
+  /usr/local/include/glm/detail/qualifier.hpp \
+  /usr/local/include/glm/detail/setup.hpp \
+  /usr/local/include/glm/geometric.hpp \
+  /usr/local/include/glm/mat2x2.hpp \
+  /usr/local/include/glm/mat2x3.hpp \
+  /usr/local/include/glm/mat2x4.hpp \
+  /usr/local/include/glm/mat3x2.hpp \
+  /usr/local/include/glm/mat3x3.hpp \
+  /usr/local/include/glm/mat3x4.hpp \
+  /usr/local/include/glm/mat4x2.hpp \
+  /usr/local/include/glm/mat4x3.hpp \
+  /usr/local/include/glm/mat4x4.hpp \
+  /usr/local/include/glm/matrix.hpp \
+  /usr/local/include/glm/vec2.hpp \
+  /usr/local/include/glm/vec3.hpp \
+  /usr/local/include/glm/vec4.hpp \
+  /usr/local/include/glm/detail/_vectorize.hpp \
+  /usr/local/include/glm/detail/compute_vector_decl.hpp \
+  /usr/local/include/glm/detail/compute_vector_relational.hpp \
+  /usr/local/include/glm/detail/qualifier.hpp \
+  /usr/local/include/glm/detail/setup.hpp \
+  /usr/local/include/glm/detail/type_mat4x4.hpp \
+  /usr/local/include/glm/detail/type_mat4x4.inl \
+  /usr/local/include/glm/detail/type_vec4.hpp \
+  /usr/local/include/glm/detail/type_vec4.inl \
+  /usr/local/include/glm/ext/matrix_double4x4.hpp \
+  /usr/local/include/glm/ext/matrix_double4x4_precision.hpp \
+  /usr/local/include/glm/ext/matrix_float4x4.hpp \
+  /usr/local/include/glm/ext/matrix_float4x4_precision.hpp \
+  /usr/local/include/glm/simd/platform.h \
+  /usr/local/include/glm/detail/_vectorize.hpp \
+  /usr/local/include/glm/detail/func_trigonometric.inl \
+  /usr/local/include/glm/detail/qualifier.hpp \
+  /usr/local/include/glm/detail/setup.hpp \
+  /usr/local/include/glm/ext/scalar_constants.hpp \
+  /usr/local/include/glm/geometric.hpp \
+  /usr/local/include/glm/gtc/constants.hpp \
+  /usr/local/include/glm/matrix.hpp \
+  /usr/local/include/glm/trigonometric.hpp \
+  /usr/local/include/glm/ext/matrix_clip_space.hpp \
+  /usr/local/include/glm/ext/matrix_clip_space.inl \
+  /usr/local/include/glm/ext/matrix_projection.hpp \
+  /usr/local/include/glm/ext/matrix_projection.inl \
+  /usr/local/include/glm/ext/matrix_transform.hpp \
+  /usr/local/include/glm/ext/matrix_transform.inl \
+  /usr/local/include/glm/ext/scalar_constants.hpp \
+  /usr/local/include/glm/ext/scalar_constants.inl \
+  /usr/local/include/glm/geometric.hpp \
+  /usr/local/include/glm/mat4x4.hpp \
+  /usr/local/include/glm/matrix.hpp \
+  /usr/local/include/glm/trigonometric.hpp \
+  /usr/local/include/glm/vec2.hpp \
+  /usr/local/include/glm/vec3.hpp \
+  /usr/local/include/glm/vec4.hpp \
+  /usr/local/include/glm/gtc/constants.hpp \
+  /usr/local/include/glm/gtc/constants.inl \
+  /usr/local/include/glm/gtc/matrix_transform.hpp \
+  /usr/local/include/glm/gtc/matrix_transform.inl \
+  /usr/local/include/glm/trigonometric.hpp \
+  /usr/local/include/glm/vector_relational.hpp \
+  /usr/local/include/glm/gtc/epsilon.hpp \
+  /usr/local/include/glm/gtc/epsilon.inl \
+  /usr/local/include/glm/gtc/quaternion.hpp \
+  /usr/local/include/glm/gtc/quaternion.inl \
+  /usr/local/include/glm/gtc/vec1.hpp \
+  /usr/local/include/glm/mat2x2.hpp \
+  /usr/local/include/glm/mat2x3.hpp \
+  /usr/local/include/glm/mat2x4.hpp \
+  /usr/local/include/glm/mat3x2.hpp \
+  /usr/local/include/glm/mat3x3.hpp \
+  /usr/local/include/glm/mat3x4.hpp \
+  /usr/local/include/glm/mat4x2.hpp \
+  /usr/local/include/glm/mat4x3.hpp \
+  /usr/local/include/glm/mat4x4.hpp \
+  /usr/local/include/glm/vec2.hpp \
+  /usr/local/include/glm/vec3.hpp \
+  /usr/local/include/glm/vec4.hpp \
+  /usr/local/include/glm/gtc/type_ptr.hpp \
+  /usr/local/include/glm/gtc/type_ptr.inl
 
 CMakeFiles/pendulum.dir/src/trail.cpp.o: /Users/hvu/Personal_Projects/game/test/swinging_pendulum/src/trail.cpp
 
 
 /Users/hvu/Personal_Projects/game/test/swinging_pendulum/src/trail.cpp:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework/Headers/gltypes.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework/Headers/OpenGLAvailability.h:
-
-/Users/hvu/Personal_Projects/game/test/swinging_pendulum/src/shader.cpp:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/secure/_stdio.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/dlfcn.h:
 
 /Users/hvu/Personal_Projects/game/test/swinging_pendulum/src/glad.c:
+
+/usr/local/include/glm/integer.hpp:
+
+/usr/local/include/glm/gtc/type_ptr.inl:
+
+/usr/local/include/glm/gtc/type_ptr.hpp:
+
+/usr/local/include/glm/gtc/vec1.hpp:
+
+/usr/local/include/glm/gtc/quaternion.inl:
+
+/usr/local/include/glm/ext/vector_uint1_sized.hpp:
+
+/usr/local/include/glm/ext/vector_relational.inl:
+
+/usr/local/include/glm/ext/vector_float1_precision.hpp:
+
+/usr/local/include/glm/ext/quaternion_trigonometric.inl:
+
+/usr/local/include/glm/ext/quaternion_trigonometric.hpp:
+
+/usr/local/include/glm/ext/quaternion_transform.hpp:
+
+/usr/local/include/glm/ext/quaternion_double.hpp:
+
+/usr/local/include/glm/ext/vector_int1.hpp:
+
+/usr/local/include/glm/ext/quaternion_geometric.inl:
+
+/usr/local/include/glm/detail/type_quat.hpp:
+
+/usr/local/include/glm/ext/quaternion_common.hpp:
+
+/usr/local/include/glm/ext/matrix_transform.inl:
+
+/usr/local/include/glm/ext/matrix_transform.hpp:
+
+/usr/local/include/glm/ext/matrix_projection.inl:
+
+/usr/local/include/glm/trigonometric.hpp:
+
+/usr/local/include/glm/gtc/constants.inl:
+
+/usr/local/include/glm/gtc/epsilon.inl:
+
+/usr/local/include/glm/gtc/constants.hpp:
+
+/usr/local/include/glm/glm.hpp:
+
+/usr/local/include/glm/fwd.hpp:
+
+/Users/hvu/Personal_Projects/game/test/swinging_pendulum/src/shader.cpp:
+
+/usr/local/include/glm/detail/type_half.inl:
+
+/usr/local/include/glm/detail/type_half.hpp:
+
+/usr/local/include/glm/ext/vector_uint2_sized.hpp:
+
+/usr/local/include/glm/ext/vector_int2_sized.hpp:
+
+/usr/local/include/glm/ext/vector_float3.hpp:
+
+/usr/local/include/glm/ext/vector_float2_precision.hpp:
+
+/usr/local/include/glm/ext/vector_float2.hpp:
+
+/usr/local/include/glm/ext/vector_double4_precision.hpp:
+
+/usr/local/include/glm/ext/vector_double4.hpp:
+
+/usr/local/include/glm/ext/vector_double3_precision.hpp:
+
+/usr/local/include/glm/ext/vector_double2_precision.hpp:
+
+/usr/local/include/glm/ext/vector_bool3_precision.hpp:
+
+/usr/local/include/glm/ext/vector_bool2_precision.hpp:
+
+/usr/local/include/glm/ext/vector_bool2.hpp:
+
+/usr/local/include/glm/ext/matrix_double2x2.hpp:
+
+/usr/local/include/glm/ext/vector_uint2.hpp:
+
+/usr/local/include/glm/ext/vector_int2.hpp:
+
+/usr/local/include/glm/ext/scalar_uint_sized.hpp:
+
+/usr/local/include/glm/ext/scalar_int_sized.hpp:
+
+/usr/local/include/glm/detail/type_vec2.inl:
+
+/usr/local/include/glm/detail/type_mat2x2.inl:
+
+/usr/local/include/glm/detail/compute_vector_decl.hpp:
+
+/usr/local/include/glm/vec4.hpp:
+
+/usr/local/include/glm/vec2.hpp:
+
+/usr/local/include/glm/mat4x4.hpp:
+
+/usr/local/include/glm/mat4x3.hpp:
+
+/usr/local/include/glm/mat3x3.hpp:
+
+/usr/local/include/glm/mat3x2.hpp:
+
+/usr/local/include/glm/detail/func_matrix.inl:
+
+/usr/local/include/glm/ext/matrix_float4x4.hpp:
+
+/usr/local/include/glm/ext/matrix_float4x2_precision.hpp:
+
+/usr/local/include/glm/ext/matrix_float4x2.hpp:
+
+/usr/local/include/glm/ext/matrix_float3x4_precision.hpp:
+
+/usr/local/include/glm/ext/matrix_float3x3_precision.hpp:
+
+/usr/local/include/glm/ext/matrix_float3x3.hpp:
+
+/usr/local/include/glm/ext/matrix_float3x2_precision.hpp:
+
+/usr/local/include/glm/ext/matrix_double4x4_precision.hpp:
+
+/usr/local/include/glm/ext/matrix_double4x4.hpp:
+
+/usr/local/include/glm/ext/matrix_double4x3_precision.hpp:
+
+/usr/local/include/glm/ext/matrix_double3x4_precision.hpp:
+
+/usr/local/include/glm/ext/matrix_double3x2_precision.hpp:
+
+/usr/local/include/glm/ext/matrix_double2x4.hpp:
+
+/usr/local/include/glm/ext/matrix_double2x3_precision.hpp:
+
+/usr/local/include/glm/detail/type_mat4x4.inl:
+
+/usr/local/include/glm/detail/type_mat4x4.hpp:
+
+/usr/local/include/glm/detail/type_mat4x3.hpp:
+
+/usr/local/include/glm/detail/type_mat4x2.inl:
+
+/usr/local/include/glm/detail/type_mat3x2.inl:
+
+/usr/local/include/glm/detail/type_mat3x2.hpp:
+
+/usr/local/include/glm/detail/type_mat2x4.inl:
+
+/usr/local/include/glm/matrix.hpp:
+
+/usr/local/include/glm/ext/matrix_projection.hpp:
+
+/usr/local/include/glm/geometric.hpp:
+
+/usr/local/include/glm/ext/matrix_float2x3.hpp:
+
+/usr/local/include/glm/detail/type_vec1.inl:
+
+/usr/local/include/glm/detail/func_geometric.inl:
+
+/usr/local/include/glm/detail/_fixes.hpp:
+
+/usr/local/include/glm/detail/type_vec3.hpp:
+
+/usr/local/include/glm/ext/vector_bool4_precision.hpp:
+
+/usr/local/include/glm/detail/type_vec2.hpp:
+
+/usr/local/include/glm/detail/func_vector_relational.inl:
+
+/usr/local/include/glm/detail/_vectorize.hpp:
+
+/usr/local/include/glm/vector_relational.hpp:
+
+/usr/local/include/glm/common.hpp:
+
+/usr/local/include/glm/detail/type_mat3x4.inl:
 
 /Users/hvu/Personal_Projects/game/test/swinging_pendulum/includes/constant.hpp:
 
@@ -3113,6 +4185,8 @@ CMakeFiles/pendulum.dir/src/trail.cpp.o: /Users/hvu/Personal_Projects/game/test/
 
 /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stdarg___gnuc_va_list.h:
 
+/usr/local/include/glm/detail/type_vec4.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_string.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_stdlib.h:
@@ -3120,6 +4194,8 @@ CMakeFiles/pendulum.dir/src/trail.cpp.o: /Users/hvu/Personal_Projects/game/test/
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/___wctype.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale.h:
+
+/usr/local/include/glm/detail/type_mat2x2.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/wctype.h:
 
@@ -3171,6 +4247,8 @@ CMakeFiles/pendulum.dir/src/trail.cpp.o: /Users/hvu/Personal_Projects/game/test/
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_key_t.h:
 
+/usr/local/include/glm/detail/type_mat3x3.inl:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_intptr_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_int32_t.h:
@@ -3213,7 +4291,11 @@ CMakeFiles/pendulum.dir/src/trail.cpp.o: /Users/hvu/Personal_Projects/game/test/
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_mutex_t.h:
 
+/usr/local/include/glm/mat2x2.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_key_t.h:
+
+/usr/local/include/glm/ext/vector_double2.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_cond_t.h:
 
@@ -3233,6 +4315,8 @@ CMakeFiles/pendulum.dir/src/trail.cpp.o: /Users/hvu/Personal_Projects/game/test/
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/pthread/qos.h:
 
+/usr/local/include/glm/ext/matrix_double3x4.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/math.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/malloc/_ptrcheck.h:
@@ -3245,6 +4329,8 @@ CMakeFiles/pendulum.dir/src/trail.cpp.o: /Users/hvu/Personal_Projects/game/test/
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/arm/_OSByteOrder.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/float.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/errno.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/ctype.h:
@@ -3254,6 +4340,8 @@ CMakeFiles/pendulum.dir/src/trail.cpp.o: /Users/hvu/Personal_Projects/game/test/
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_rsize_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/unordered_map:
+
+/usr/local/include/glm/detail/type_vec3.inl:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/typeinfo:
 
@@ -3281,6 +4369,12 @@ CMakeFiles/pendulum.dir/src/trail.cpp.o: /Users/hvu/Personal_Projects/game/test/
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/ostream:
 
+/usr/local/include/glm/ext/quaternion_relational.hpp:
+
+/usr/local/include/glm/ext/matrix_float3x2.hpp:
+
+/usr/local/include/glm/ext/matrix_double3x3.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/new:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/mutex:
@@ -3291,23 +4385,17 @@ CMakeFiles/pendulum.dir/src/trail.cpp.o: /Users/hvu/Personal_Projects/game/test/
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iostream:
 
+/usr/local/include/glm/ext/matrix_double2x2_precision.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iosfwd:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_ino_t.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/stddef.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/copy.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/ios:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_mismatch.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sched.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iomanip:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/unwrap_range.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/functional:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/ostream.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/fstream:
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/initializer_list:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/format:
 
@@ -3329,9 +4417,15 @@ CMakeFiles/pendulum.dir/src/trail.cpp.o: /Users/hvu/Personal_Projects/game/test/
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cctype:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/statically_widen.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cassert:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/bit:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/atomic:
+
+/usr/local/include/glm/ext/vector_int3_sized.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/algorithm:
 
@@ -3353,7 +4447,11 @@ CMakeFiles/pendulum.dir/src/trail.cpp.o: /Users/hvu/Personal_Projects/game/test/
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/scope_guard.h:
 
+/usr/local/include/glm/ext/matrix_float2x3_precision.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/priority_tag.h:
+
+/usr/local/include/glm/ext/vector_float3_precision.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/piecewise_construct.h:
 
@@ -3433,6 +4531,8 @@ CMakeFiles/pendulum.dir/src/trail.cpp.o: /Users/hvu/Personal_Projects/game/test/
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_pointer.h:
 
+/usr/local/include/glm/ext/matrix_double4x3.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/regular.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_pod.h:
@@ -3467,9 +4567,13 @@ CMakeFiles/pendulum.dir/src/trail.cpp.o: /Users/hvu/Personal_Projects/game/test/
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/is_valid_range.h:
 
+/usr/local/include/glm/gtc/quaternion.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/byte.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_compound.h:
+
+/usr/local/include/glm/detail/func_integer.inl:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_char_like_type.h:
 
@@ -3485,9 +4589,9 @@ CMakeFiles/pendulum.dir/src/trail.cpp.o: /Users/hvu/Personal_Projects/game/test/
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/invoke.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_wctype.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/is_heap.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_wctype.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/extended_grapheme_cluster_table.h:
 
@@ -3539,6 +4643,8 @@ CMakeFiles/pendulum.dir/src/trail.cpp.o: /Users/hvu/Personal_Projects/game/test/
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/conditional.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_static_assert.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/common_reference.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/alignment_of.h:
@@ -3558,6 +4664,8 @@ CMakeFiles/pendulum.dir/src/trail.cpp.o: /Users/hvu/Personal_Projects/game/test/
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/aligned_storage.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/add_rvalue_reference.h:
+
+/usr/local/include/glm/ext/quaternion_relational.inl:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_array.h:
 
@@ -3615,7 +4723,11 @@ CMakeFiles/pendulum.dir/src/trail.cpp.o: /Users/hvu/Personal_Projects/game/test/
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__system_error/error_condition.h:
 
+/usr/local/include/glm/detail/type_mat4x3.inl:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__system_error/error_category.h:
+
+/usr/local/include/glm/ext/quaternion_float.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/string.h:
 
@@ -3711,6 +4823,8 @@ CMakeFiles/pendulum.dir/src/trail.cpp.o: /Users/hvu/Personal_Projects/game/test/
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__new/allocate.h:
 
+/usr/local/include/glm/ext/matrix_double2x4_precision.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_ucontext.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_in_addr_t.h:
@@ -3718,6 +4832,8 @@ CMakeFiles/pendulum.dir/src/trail.cpp.o: /Users/hvu/Personal_Projects/game/test/
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/machine/limits.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__mutex/mutex.h:
+
+/usr/local/include/glm/mat4x2.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/unique_temporary_buffer.h:
 
@@ -3755,6 +4871,8 @@ CMakeFiles/pendulum.dir/src/trail.cpp.o: /Users/hvu/Personal_Projects/game/test/
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/noexcept_move_assign_container.h:
 
+/usr/local/include/glm/ext/vector_bool1_precision.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/auto_ptr.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/assume_aligned.h:
@@ -3765,6 +4883,8 @@ CMakeFiles/pendulum.dir/src/trail.cpp.o: /Users/hvu/Personal_Projects/game/test/
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/array_cookie.h:
 
+/usr/local/include/glm/ext/matrix_float4x3_precision.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/machine/_mcontext.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_nth_element.h:
@@ -3774,6 +4894,8 @@ CMakeFiles/pendulum.dir/src/trail.cpp.o: /Users/hvu/Personal_Projects/game/test/
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/allocate_at_least.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/trigonometric_functions.h:
+
+/usr/local/include/glm/ext/vector_uint1.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/rounding_functions.h:
 
@@ -3811,6 +4933,8 @@ CMakeFiles/pendulum.dir/src/trail.cpp.o: /Users/hvu/Personal_Projects/game/test/
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/sortable.h:
 
+/usr/local/include/glm/ext/scalar_constants.inl:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/lexicographical_compare.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/uninitialized_algorithms.h:
@@ -3841,13 +4965,15 @@ CMakeFiles/pendulum.dir/src/trail.cpp.o: /Users/hvu/Personal_Projects/game/test/
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__new/global_typed_new_delete.h:
 
+/usr/local/include/glm/ext/matrix_double3x3_precision.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/move_iterator.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__verbose_abort:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework/Headers/gl.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/mergeable.h:
+
+/usr/local/include/glm/ext/vector_bool4.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/result_of.h:
 
@@ -3857,10 +4983,6 @@ CMakeFiles/pendulum.dir/src/trail.cpp.o: /Users/hvu/Personal_Projects/game/test/
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/insert_iterator.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/stddef.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/ios:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/incrementable_traits.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/front_insert_iterator.h:
@@ -3868,6 +4990,10 @@ CMakeFiles/pendulum.dir/src/trail.cpp.o: /Users/hvu/Personal_Projects/game/test/
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/empty.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/distance.h:
+
+/usr/local/include/glm/ext/vector_double1_precision.hpp:
+
+/usr/local/include/glm/ext/quaternion_float_precision.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/default_sentinel.h:
 
@@ -3882,6 +5008,8 @@ CMakeFiles/pendulum.dir/src/trail.cpp.o: /Users/hvu/Personal_Projects/game/test/
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_copy_n.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/common_iterator.h:
+
+/usr/local/include/glm/mat2x4.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/bounded_iter.h:
 
@@ -3919,6 +5047,10 @@ CMakeFiles/pendulum.dir/src/trail.cpp.o: /Users/hvu/Personal_Projects/game/test/
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__string/constexpr_c_functions.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/fstream:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/ostream.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/data.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_u_int16_t.h:
@@ -3935,15 +5067,21 @@ CMakeFiles/pendulum.dir/src/trail.cpp.o: /Users/hvu/Personal_Projects/game/test/
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/rank.h:
 
+/usr/local/include/glm/detail/type_vec1.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/totally_ordered.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/fstream.h:
+
+/usr/local/include/glm/ext/vector_uint4.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/complex.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__new/align_val_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/bit_reference.h:
+
+/usr/local/include/glm/ext/matrix_clip_space.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_partition_copy.h:
 
@@ -3952,6 +5090,8 @@ CMakeFiles/pendulum.dir/src/trail.cpp.o: /Users/hvu/Personal_Projects/game/test/
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__vector/erase.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/pointer_to_unary_function.h:
+
+/usr/local/include/glm/ext/matrix_float3x4.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/fdim.h:
 
@@ -3985,7 +5125,11 @@ CMakeFiles/pendulum.dir/src/trail.cpp.o: /Users/hvu/Personal_Projects/game/test/
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/binder2nd.h:
 
+/usr/local/include/glm/detail/type_mat3x3.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__thread/support/pthread.h:
+
+/usr/local/include/glm/detail/type_float.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/resource.h:
 
@@ -4000,10 +5144,6 @@ CMakeFiles/pendulum.dir/src/trail.cpp.o: /Users/hvu/Personal_Projects/game/test/
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/bind_back.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/bind.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sched.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/initializer_list:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/min_element.h:
 
@@ -4031,6 +5171,8 @@ CMakeFiles/pendulum.dir/src/trail.cpp.o: /Users/hvu/Personal_Projects/game/test/
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/integer_sequence.h:
 
+/usr/local/include/glm/ext/matrix_float2x4_precision.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/formatter_floating_point.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/indirectly_comparable.h:
@@ -4038,6 +5180,8 @@ CMakeFiles/pendulum.dir/src/trail.cpp.o: /Users/hvu/Personal_Projects/game/test/
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/arithmetic.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/format_parse_context.h:
+
+/usr/local/include/glm/vec3.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/lazy.h:
 
@@ -4050,6 +5194,8 @@ CMakeFiles/pendulum.dir/src/trail.cpp.o: /Users/hvu/Personal_Projects/game/test/
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/is_sorted_until.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/format_error.h:
+
+/usr/local/include/glm/mat2x3.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_volatile.h:
 
@@ -4075,6 +5221,8 @@ CMakeFiles/pendulum.dir/src/trail.cpp.o: /Users/hvu/Personal_Projects/game/test/
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/for_each_segment.h:
 
+/usr/local/include/glm/ext/matrix_clip_space.inl:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__charconv/tables.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_max_element.h:
@@ -4098,6 +5246,8 @@ CMakeFiles/pendulum.dir/src/trail.cpp.o: /Users/hvu/Personal_Projects/game/test/
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/space_info.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_copy.h:
+
+/usr/local/include/glm/simd/platform.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/stdio.h:
 
@@ -4131,6 +5281,8 @@ CMakeFiles/pendulum.dir/src/trail.cpp.o: /Users/hvu/Personal_Projects/game/test/
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/file_status.h:
 
+/usr/local/include/glm/ext/vector_uint4_sized.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/in_fun_result.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__atomic/atomic_init.h:
@@ -4159,6 +5311,8 @@ CMakeFiles/pendulum.dir/src/trail.cpp.o: /Users/hvu/Personal_Projects/game/test/
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__exception/operations.h:
 
+/usr/local/include/glm/ext/vector_int4.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/operations.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cstddef:
@@ -4174,6 +5328,8 @@ CMakeFiles/pendulum.dir/src/trail.cpp.o: /Users/hvu/Personal_Projects/game/test/
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__exception/exception.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/language.h:
+
+/usr/local/include/glm/ext/matrix_float2x4.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__debug_utils/strict_weak_ordering_check.h:
 
@@ -4197,6 +5353,8 @@ CMakeFiles/pendulum.dir/src/trail.cpp.o: /Users/hvu/Personal_Projects/game/test/
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/move.h:
 
+/usr/local/include/glm/ext/quaternion_common.inl:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/remove.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/availability.h:
@@ -4206,6 +5364,8 @@ CMakeFiles/pendulum.dir/src/trail.cpp.o: /Users/hvu/Personal_Projects/game/test/
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/format_arg.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config_site:
+
+/usr/local/include/glm/mat3x4.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/semiregular.h:
 
@@ -4225,6 +5385,8 @@ CMakeFiles/pendulum.dir/src/trail.cpp.o: /Users/hvu/Personal_Projects/game/test/
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/is_valid.h:
 
+/usr/local/include/glm/ext/vector_double3.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/arm/_mcontext.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/indic_conjunct_break_table.h:
@@ -4233,23 +5395,23 @@ CMakeFiles/pendulum.dir/src/trail.cpp.o: /Users/hvu/Personal_Projects/game/test/
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_scalar.h:
 
+/usr/local/include/glm/ext/vector_double1.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/constructible.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/common_with.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/count_if.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/file_clock.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/binary_function.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__compare/three_way_comparable.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/iter_swap.h:
 
+/usr/local/include/glm/ext/matrix_float2x2.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__compare/strong_order.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/concepts.h:
+
+/usr/local/include/glm/ext/vector_relational.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/compressed_pair.h:
 
@@ -4259,9 +5421,9 @@ CMakeFiles/pendulum.dir/src/trail.cpp.o: /Users/hvu/Personal_Projects/game/test/
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__tuple/ignore.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/steady_clock.h:
+/Library/Developer/CommandLineTools/usr/lib/clang/17/include/float.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/statically_widen.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/steady_clock.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/swap.h:
 
@@ -4274,6 +5436,8 @@ CMakeFiles/pendulum.dir/src/trail.cpp.o: /Users/hvu/Personal_Projects/game/test/
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/type_traits:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/convert_to_timespec.h:
+
+/usr/local/include/glm/ext/matrix_float4x3.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__charconv/traits.h:
 
@@ -4307,11 +5471,17 @@ CMakeFiles/pendulum.dir/src/trail.cpp.o: /Users/hvu/Personal_Projects/game/test/
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__bit/blsr.h:
 
+/usr/local/include/glm/ext/vector_float1.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_fsfilcnt_t.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/float.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_set_intersection.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__bit/bit_ceil.h:
+
+/usr/local/include/glm/ext/matrix_double3x2.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_minmax.h:
 
@@ -4325,13 +5495,15 @@ CMakeFiles/pendulum.dir/src/trail.cpp.o: /Users/hvu/Personal_Projects/game/test/
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__atomic/contention_t.h:
 
+/usr/local/include/glm/detail/func_packing.inl:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/partial_sort_copy.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cerrno:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_remove_copy.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_lower_bound.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_remove_copy.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/remove_volatile.h:
 
@@ -4353,11 +5525,13 @@ CMakeFiles/pendulum.dir/src/trail.cpp.o: /Users/hvu/Personal_Projects/game/test/
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__atomic/atomic_ref.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/os/availability.h:
+/usr/local/include/glm/ext/matrix_float4x4_precision.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__atomic/aliases.h:
+
+/usr/local/include/glm/detail/type_quat.inl:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/formatter_tuple.h:
 
@@ -4375,6 +5549,8 @@ CMakeFiles/pendulum.dir/src/trail.cpp.o: /Users/hvu/Personal_Projects/game/test/
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/unwrap_iter.h:
 
+/usr/local/include/glm/ext/scalar_constants.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/transform.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__bit/popcount.h:
@@ -4388,6 +5564,8 @@ CMakeFiles/pendulum.dir/src/trail.cpp.o: /Users/hvu/Personal_Projects/game/test/
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/min.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/exception:
+
+/usr/local/include/glm/ext/vector_bool3.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_partial_sort.h:
 
@@ -4406,10 +5584,6 @@ CMakeFiles/pendulum.dir/src/trail.cpp.o: /Users/hvu/Personal_Projects/game/test/
 /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_offsetof.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/shift_left.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__compare/synth_three_way.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/binary_negate.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/set_union.h:
 
@@ -4449,11 +5623,23 @@ CMakeFiles/pendulum.dir/src/trail.cpp.o: /Users/hvu/Personal_Projects/game/test/
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/replace.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/binary_function.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/count_if.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/file_clock.h:
+
+/usr/local/include/glm/ext/vector_int1_sized.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/remove_if.h:
+
+/usr/local/include/glm/ext/vector_float4_precision.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/allocator_arg_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/remove_copy.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/assert.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/memory:
 
@@ -4462,6 +5648,8 @@ CMakeFiles/pendulum.dir/src/trail.cpp.o: /Users/hvu/Personal_Projects/game/test/
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_stable_partition.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_trivially_assignable.h:
+
+/usr/local/include/glm/detail/setup.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__bit/bit_floor.h:
 
@@ -4474,16 +5662,6 @@ CMakeFiles/pendulum.dir/src/trail.cpp.o: /Users/hvu/Personal_Projects/game/test/
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_reverse.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_replace_copy_if.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_all_of.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_unsigned.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/weak_result_type.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/secure/_string.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_set_union.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_remove_copy_if.h:
 
@@ -4523,6 +5701,14 @@ CMakeFiles/pendulum.dir/src/trail.cpp.o: /Users/hvu/Personal_Projects/game/test/
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_for_each_n.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_ino_t.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iomanip:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/copy.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_mismatch.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/arm/_types.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_minmax_element.h:
@@ -4543,9 +5729,11 @@ CMakeFiles/pendulum.dir/src/trail.cpp.o: /Users/hvu/Personal_Projects/game/test/
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_trivially_destructible.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/fill_n.h:
+/usr/local/include/glm/detail/type_mat2x3.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/is_pointer_in_range.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/fill_n.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/detected_or.h:
 
@@ -4555,15 +5743,17 @@ CMakeFiles/pendulum.dir/src/trail.cpp.o: /Users/hvu/Personal_Projects/game/test/
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_uint8_t.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cwchar:
-
 /Users/hvu/Personal_Projects/game/test/swinging_pendulum/src/ball.cpp:
+
+/usr/local/include/glm/gtc/epsilon.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_remove_if.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_iterator_concept.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/filesystem_error.h:
+
+/usr/local/include/glm/ext/matrix_double4x2_precision.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/private_constructor_tag.h:
 
@@ -4593,6 +5783,8 @@ CMakeFiles/pendulum.dir/src/trail.cpp.o: /Users/hvu/Personal_Projects/game/test/
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/pointer_traits.h:
 
+/usr/local/include/glm/ext/matrix_float2x2_precision.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/traits.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_contains.h:
@@ -4620,6 +5812,8 @@ CMakeFiles/pendulum.dir/src/trail.cpp.o: /Users/hvu/Personal_Projects/game/test/
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/remove_copy_if.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_generate.h:
+
+/usr/local/include/glm/ext/vector_uint3.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/pstl.h:
 
@@ -4665,6 +5859,8 @@ CMakeFiles/pendulum.dir/src/trail.cpp.o: /Users/hvu/Personal_Projects/game/test/
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/uniform_random_bit_generator_adaptor.h:
 
+/usr/local/include/glm/gtc/matrix_transform.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/destruct_n.h:
 
 /Users/hvu/Personal_Projects/game/test/swinging_pendulum/src/rod.cpp:
@@ -4689,6 +5885,8 @@ CMakeFiles/pendulum.dir/src/trail.cpp.o: /Users/hvu/Personal_Projects/game/test/
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_binary_search.h:
 
+/usr/local/include/glm/ext/vector_float4.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/streambuf:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/mem_fn.h:
@@ -4709,11 +5907,15 @@ CMakeFiles/pendulum.dir/src/trail.cpp.o: /Users/hvu/Personal_Projects/game/test/
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__compare/is_eq.h:
 
+/usr/local/include/glm/ext/quaternion_geometric.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/to_underlying.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/equality_comparable.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_adjacent_find.h:
+
+/usr/local/include/glm/detail/qualifier.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__bit/rotate.h:
 
@@ -4721,21 +5923,23 @@ CMakeFiles/pendulum.dir/src/trail.cpp.o: /Users/hvu/Personal_Projects/game/test/
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/radix_sort.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_attr_t.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/is_heap_until.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/view_interface.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/remove_all_extents.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/unique.h:
 
+/usr/local/include/glm/ext/matrix_double2x3.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/partition_copy.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/view_interface.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/ctype.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__cstddef/byte.h:
+
+/usr/local/include/glm/ext/quaternion_double_precision.hpp:
+
+/usr/local/include/glm/detail/func_exponential.inl:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:
 
@@ -4791,7 +5995,31 @@ CMakeFiles/pendulum.dir/src/trail.cpp.o: /Users/hvu/Personal_Projects/game/test/
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/directory_iterator.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/allocation_guard.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/ostream_iterator.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/abi.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/raw_storage_iterator.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/mismatch.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_nothrow_constructible.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__atomic/support/c11.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/not_fn.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/array:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/minmax_element.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cfloat:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/boolean_testable.h:
+
+/usr/local/include/glm/detail/type_mat2x3.inl:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_sample.h:
 
@@ -4831,10 +6059,6 @@ CMakeFiles/pendulum.dir/src/trail.cpp.o: /Users/hvu/Personal_Projects/game/test/
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/iter_swap.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_uintptr_t.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_none_of.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_u_int8_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/uniform_random_bit_generator.h:
@@ -4847,9 +6071,17 @@ CMakeFiles/pendulum.dir/src/trail.cpp.o: /Users/hvu/Personal_Projects/game/test/
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__cstddef/nullptr_t.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_all_of.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/istreambuf_iterator.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/minmax.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__charconv/to_chars_floating_point.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/generate_n.h:
+
+/usr/local/include/glm/ext/quaternion_transform.inl:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cmath:
 
@@ -4859,27 +6091,9 @@ CMakeFiles/pendulum.dir/src/trail.cpp.o: /Users/hvu/Personal_Projects/game/test/
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_upper_bound.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__charconv/to_chars_floating_point.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_attr_t.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/generate_n.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/ostream_iterator.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/abi.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/raw_storage_iterator.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/mismatch.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_nothrow_constructible.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__atomic/support/c11.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/not_fn.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/array:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/minmax_element.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/is_heap_until.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/includes.h:
 
@@ -4901,6 +6115,8 @@ CMakeFiles/pendulum.dir/src/trail.cpp.o: /Users/hvu/Personal_Projects/game/test/
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/bitset:
 
+/usr/local/include/glm/ext/matrix_double4x2.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_types.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/negation.h:
@@ -4912,6 +6128,8 @@ CMakeFiles/pendulum.dir/src/trail.cpp.o: /Users/hvu/Personal_Projects/game/test/
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/modulo.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__bit/countr.h:
+
+/usr/local/include/glm/detail/func_common.inl:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/string:
 
@@ -4957,19 +6175,17 @@ CMakeFiles/pendulum.dir/src/trail.cpp.o: /Users/hvu/Personal_Projects/game/test/
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/readable_traits.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_equal.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_swap_ranges.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/copy_backward.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/fma.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_unique.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_uint64_t.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_partial_sort_copy.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_max.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_symbol_aliasing.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/all_of.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/allocation_guard.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/adjacent_find.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/search.h:
 
@@ -4985,15 +6201,23 @@ CMakeFiles/pendulum.dir/src/trail.cpp.o: /Users/hvu/Personal_Projects/game/test/
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_wchar.h:
 
+/usr/local/include/glm/exponential.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/error_functions.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_uintmax_t.h:
 
+/usr/local/include/glm/detail/type_mat2x4.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/remove_cv.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cwchar:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/format_string.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h:
+
+/usr/local/include/glm/ext/vector_uint3_sized.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_wctype_t.h:
 
@@ -5001,43 +6225,31 @@ CMakeFiles/pendulum.dir/src/trail.cpp.o: /Users/hvu/Personal_Projects/game/test/
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__string/extern_template_lists.h:
 
+/usr/local/include/glm/detail/type_vec4.inl:
+
+/usr/local/include/glm/detail/type_mat3x4.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/path.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__charconv/to_chars_integral.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/in_found_result.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/adjacent_find.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_unique.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_uint64_t.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_partial_sort_copy.h:
+
+/usr/local/include/glm/ext/vector_int3.hpp:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_max.h:
+
+/usr/local/include/glm/detail/type_mat4x2.hpp:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_symbol_aliasing.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/all_of.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_search.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/align.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/deque.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/formatter_integer.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_bounds.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__vector/pmr.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/swap_allocator.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/formatter_bool.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_find_if_not.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/swappable.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_replace.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_next_permutation.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/sort.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternalLegacy.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/arm/_limits.h:
 
@@ -5051,23 +6263,39 @@ CMakeFiles/pendulum.dir/src/trail.cpp.o: /Users/hvu/Personal_Projects/game/test/
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__atomic/fence.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_int8_t.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__vector/pmr.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/in_out_out_result.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/swap_allocator.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_equal.h:
+/usr/local/include/glm/ext/vector_int4_sized.hpp:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_swap_ranges.h:
+/usr/local/include/glm/detail/compute_common.hpp:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/copy_backward.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/formatter_bool.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/shared_ptr.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_find_if_not.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/in_in_result.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/swappable.h:
+
+/usr/local/include/glm/ext/vector_bool1.hpp:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_replace.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_next_permutation.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/sort.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternalLegacy.h:
+
+/usr/local/include/glm/gtc/matrix_transform.inl:
+
+/usr/local/include/glm/detail/func_trigonometric.inl:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__condition_variable/condition_variable.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/find_segment_if.h:
+
+/usr/local/include/glm/packing.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_trivial.h:
 
@@ -5075,6 +6303,46 @@ CMakeFiles/pendulum.dir/src/trail.cpp.o: /Users/hvu/Personal_Projects/game/test/
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_assignable.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/functional:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/unwrap_range.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_blksize_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_ctermid.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_int8_t.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/in_out_out_result.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_assert.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/shared_ptr.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/in_in_result.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_uintptr_t.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_none_of.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/binary_negate.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__compare/synth_three_way.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_unsigned.h:
+
+/usr/local/include/glm/detail/compute_vector_relational.hpp:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/weak_result_type.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/secure/_string.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_set_union.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/align.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/deque.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/formatter_integer.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_bounds.h:

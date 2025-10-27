@@ -16,6 +16,10 @@ Ball::Ball() {
   vertices[2 * resolution + 2] = vertices[2];
   vertices[2 * resolution + 3] = vertices[3];
   setupVAO();
+
+  shader.makeShader("../src/shader/ball.vert", "../src/shader/ball.frag");
+  shader.setMat4("view", view);
+  shader.setMat4("projection", projection);
 }
 
 void Ball::setupVAO() {
@@ -31,6 +35,12 @@ void Ball::setupVAO() {
 
 void Ball::render(Shader &shader) {
   shader.use();
+
+  glm::mat4 model = glm::mat4(1.0f);
+  model = glm::scale(model, glm::vec3(0.5));
+
+  shader.setMat4("model", model);
+
   glBindVertexArray(VAO);
   glDrawArrays(GL_TRIANGLE_FAN, 0, resolution + 2);
 }

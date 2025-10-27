@@ -1,5 +1,6 @@
 #include <glad/glad.h>
 #include "shader.hpp"
+#include "glm/gtc/type_ptr.hpp"
 
 void Shader::CreateShaderProgram(unsigned int &vertex, unsigned int &fragment) {
   int success;
@@ -18,7 +19,9 @@ void Shader::CreateShaderProgram(unsigned int &vertex, unsigned int &fragment) {
   }
 }
 
-Shader::Shader(const char *vertexPath, const char *fragmentPath) {
+void Shader::makeShader(const char *vertexPath, const char *fragmentPath) {
+  std::cout << "shader is making\n";
+  if (maken) return;
   unsigned int vertex, fragment;
   std::string line;
 
@@ -49,7 +52,14 @@ Shader::Shader(const char *vertexPath, const char *fragmentPath) {
 
   glDeleteShader(vertex);
   glDeleteShader(fragment);
+
+  maken = true;
 }
+
+Shader::Shader(const char *vertexPath, const char *fragmentPath) {
+  makeShader(vertexPath, fragmentPath);
+}
+
 void Shader::CreateShader(const char *source, unsigned int &ID,
                           std::string shaderType) {
   int success;
@@ -67,12 +77,18 @@ void Shader::CreateShader(const char *source, unsigned int &ID,
 }
 
 void Shader::use() { glUseProgram(shaderID); }
-void Shader::setBool(const char *var_name, bool value) {
+void Shader::setBool(const char *var_name, const bool value) {
   glUniform1i(glGetUniformLocation(shaderID, var_name), value);
 }
-void Shader::setFloat(const char *var_name, float value) {
+void Shader::setFloat(const char *var_name, const float value) {
   glUniform1f(glGetUniformLocation(shaderID, var_name), value);
 }
-void Shader::setInt(const char *var_name, int value) {
+void Shader::setInt(const char *var_name, const int value) {
   glUniform1i(glGetUniformLocation(shaderID, var_name), value);
+}
+void Shader::setMat4(const char *var_name, const glm::mat4 &matrix) {
+  // int loc = glGetUniformLocation(shaderID, var_name);
+  // std::cout << var_name << " location = " << loc << "\n";
+  glUniformMatrix4fv(glGetUniformLocation(shaderID, var_name), 1, false,
+                     glm::value_ptr(matrix));
 }
