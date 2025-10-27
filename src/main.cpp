@@ -37,25 +37,19 @@ int main() {
   glViewport(0, 0, WIDTH * 2, HEIGHT * 2);
   glfwSetFramebufferSizeCallback(window, framebuffer_size_callback);
 
-  Ball ball;
+  Ball balls[3];
+  float theta[2] = {PI / 2, PI};
 
-  const glm::mat4 projection =
-      glm::ortho(-2.0f, 2.0f, -2.0f, 2.0f, 0.1f, 100.0f);
-
-  glm::mat4 view = glm::mat4(1.0f);
-  // view = glm::translate(view, glm::vec3(0, 0, 0.5f));
-
-  glm::mat4 model = glm::mat4(1.0f);
-  model = glm::scale(model, glm::vec3(0.5));
-
-  ballShader.setMat4("view", view);
-  ballShader.setMat4("projection", projection);
+  balls[0].updatePosition(glm::vec3(0, -0.3, 0));
+  balls[1].updatePosition(glm::vec3(0, 0.1, 0));
+  balls[2].updatePosition(glm::vec3(0, 0.5, 0));
 
   while (!glfwWindowShouldClose(window)) {
     glClear(GL_COLOR_BUFFER_BIT);
 
-    ballShader.setMat4("model", model);
-    ball.render(ballShader);
+    for (int i = 0; i < 3; ++i) {
+      balls[i].render();
+    }
 
     glfwSwapBuffers(window);
     glfwPollEvents();

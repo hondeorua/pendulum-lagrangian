@@ -1,5 +1,10 @@
 #include "ball.hpp"
 #include "constant.hpp"
+#include "glm/ext/matrix_transform.hpp"
+#include "glm/matrix.hpp"
+
+// initialize static variable
+Shader Ball::shader;
 
 Ball::Ball() {
   // Center
@@ -18,6 +23,7 @@ Ball::Ball() {
   setupVAO();
 
   shader.makeShader("../src/shader/ball.vert", "../src/shader/ball.frag");
+  shader.use();
   shader.setMat4("view", view);
   shader.setMat4("projection", projection);
 }
@@ -33,14 +39,19 @@ void Ball::setupVAO() {
   glEnableVertexAttribArray(0);
 }
 
-void Ball::render(Shader &shader) {
+void Ball::render() {
   shader.use();
 
   glm::mat4 model = glm::mat4(1.0f);
-  model = glm::scale(model, glm::vec3(0.5));
+  model = glm::translate(model, position);
+  model = glm::scale(model, glm::vec3(BALL_SCALE));
 
   shader.setMat4("model", model);
 
   glBindVertexArray(VAO);
   glDrawArrays(GL_TRIANGLE_FAN, 0, resolution + 2);
+}
+
+void Ball::updatePosition(const glm::vec3 newPos){
+  position = newPos;
 }

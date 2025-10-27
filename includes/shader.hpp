@@ -9,11 +9,12 @@
 
 class Shader {
 private:
-  unsigned int shaderID;
+  unsigned int shaderID = 0;
+  bool maken = false;
+
   void CreateShaderProgram(unsigned int &vertex, unsigned int &fragment);
   void CreateShader(const char *source, unsigned int &ID,
                     std::string shaderType);
-  bool maken = false;
 
 public:
   Shader() = default;

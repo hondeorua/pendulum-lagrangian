@@ -8,11 +8,14 @@
 
 struct Ball {
   Ball();
-  void render(Shader& shader);
+  void render();
+  void updatePosition(const glm::vec3);
 private:
   void setupVAO();
   unsigned int VAO, VBO;
   float vertices[resolution * 2 + 4];
+
   glm::vec3 position = glm::vec3(0.0f);
+
   static Shader shader;
 };
