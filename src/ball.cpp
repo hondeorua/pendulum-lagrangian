@@ -44,7 +44,7 @@ void Ball::render() {
 
   glm::mat4 model = glm::mat4(1.0f);
   model = glm::translate(model, position);
-  model = glm::scale(model, glm::vec3(BALL_SCALE));
+  model = glm::scale(model, glm::vec3(SCALE));
 
   shader.setMat4("model", model);
 
@@ -52,6 +52,6 @@ void Ball::render() {
   glDrawArrays(GL_TRIANGLE_FAN, 0, resolution + 2);
 }
 
-void Ball::updatePosition(const glm::vec3 newPos){
-  position = newPos;
-}
+void Ball::updatePosition(const glm::vec3 newPos) { position = newPos; }
+
+const glm::vec3 &Ball::getPosition() const { return position; }

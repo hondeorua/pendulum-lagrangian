@@ -20,7 +20,6 @@ void Shader::CreateShaderProgram(unsigned int &vertex, unsigned int &fragment) {
 }
 
 void Shader::makeShader(const char *vertexPath, const char *fragmentPath) {
-  std::cout << "shader is making\n";
   if (maken) return;
   unsigned int vertex, fragment;
   std::string line;

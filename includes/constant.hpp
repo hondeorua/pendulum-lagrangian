@@ -9,13 +9,15 @@ constexpr double PI = 3.14159265358979323846;
 constexpr unsigned int HEIGHT = 900;
 constexpr unsigned int WIDTH = 1200;
 constexpr float ASPECT = static_cast<float>(WIDTH) / HEIGHT;
+constexpr float BALL_0_Y = 0.3;
 
+constexpr float SCALE = 0.03;
 // of ball
-constexpr float BALL_SCALE = 0.03;
 constexpr float BALL_MASS = 1;
 
 // of rod
-constexpr float ROD_LENGTH = 0.3;
+constexpr float ROD_LENGTH = 0.42;
+constexpr float ROD_WIDTH = SCALE / 5;
 
 constexpr glm::mat4 view =
     glm::translate(glm::mat4(1.0f), glm::vec3(0, 0, 0.0f));
