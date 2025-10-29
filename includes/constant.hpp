@@ -10,6 +10,7 @@ constexpr unsigned int HEIGHT = 900;
 constexpr unsigned int WIDTH = 1200;
 constexpr float ASPECT = static_cast<float>(WIDTH) / HEIGHT;
 constexpr float BALL_0_Y = 0.3;
+constexpr float GRAVITY = 9.80665;
 
 constexpr float SCALE = 0.03;
 // of ball
