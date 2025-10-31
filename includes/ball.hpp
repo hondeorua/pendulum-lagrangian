@@ -8,9 +8,9 @@
 
 struct Ball {
   Ball();
-  void render();
+  void render(float customScale = SCALE);
   void updatePosition(const glm::vec3);
-  const glm::vec3& getPosition() const;
+  const glm::vec3 getPosition() const;
 private:
   void setupVAO();
   unsigned int VAO, VBO;

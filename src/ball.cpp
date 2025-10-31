@@ -39,12 +39,12 @@ void Ball::setupVAO() {
   glEnableVertexAttribArray(0);
 }
 
-void Ball::render() {
+void Ball::render(float customScale) {
   shader.use();
 
   glm::mat4 model = glm::mat4(1.0f);
   model = glm::translate(model, position);
-  model = glm::scale(model, glm::vec3(SCALE));
+  model = glm::scale(model, glm::vec3(customScale));
 
   shader.setMat4("model", model);
 
@@ -54,4 +54,4 @@ void Ball::render() {
 
 void Ball::updatePosition(const glm::vec3 newPos) { position = newPos; }
 
-const glm::vec3 &Ball::getPosition() const { return position; }
+const glm::vec3 Ball::getPosition() const { return position; }
